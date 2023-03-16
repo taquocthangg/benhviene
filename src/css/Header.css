@@ -1,0 +1,155 @@
+
+.containers{
+    display: flex;
+    background-color: #fff;
+    height: 118px;
+    position: fixed;
+    z-index: 99999999;
+    width: 100%;
+}
+.containers .menuLogo{
+    display: flex;
+    align-items: center;
+}
+.icon_logobenhvien{
+   margin-left:50px;
+}
+.menubar{
+    margin: 0 auto;
+    display: flex;
+}
+.menuFixTop{
+    display: flex;
+    gap: 20px;
+    padding-top:5px;
+    justify-content: right;
+    position: relative;
+    height: 60px;
+    align-items: center;
+}
+
+.menuLogin{
+width: 135px;
+height: 37px;
+background-color: blue;
+text-align: center;
+line-height: 37px;
+}
+.menu_dangnhap{
+    background-color:#0352cc;
+    border:1px solid #0352cc;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_taiungdung{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff;
+    color: #000;
+    border:1px solid #0352cc;
+    border-radius: 3px;
+    color:#0352cc ;
+    font-weight: 400;
+    
+}
+.menu_taiungdung:hover{
+    cursor: pointer;
+    border-radius: 3px;
+    background-color:#0352cc;
+    color: #fff;
+    transition: .5s ease-in-out;
+}
+
+.dangnhap{
+    color:#fff;
+    font-weight: 500;
+
+}
+
+.taiungdung{
+    color:#0352cc;
+    font-size: 14px;
+    font-weight: 600;
+  
+}
+.taiungdung{
+    color:#0352cc;
+}
+.menuFix{
+    height: 117px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   /* width: 1200px; */
+
+}
+.menuFixBot{
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    gap:30px;
+    height: 50px;
+    line-height: 50px;
+    
+}
+.menuFixBot>ul>li{
+    font-weight: 500;
+    padding:0 19px;
+
+}
+
+.menuFixBot>ul>li>a{
+    color: #000;
+}
+.menuFixBot>ul>li>a:hover{
+    color:#0352cc;
+
+}
+.icon_login_dangnhap{
+    padding-right:2px;
+}
+.phone{
+    padding-right: 5px;
+    font-size:20px;
+    line-height: 38px;
+    margin-top: 5px;
+}
+.header_login{
+    margin-right:8px;
+    font-size: 25px;
+    margin-top: 5px;
+    
+}
+.menuFixBot{
+    position: relative;
+}
+ul li{
+    position: relative;
+}
+ul a::after{
+content: "";
+height: 2.5px;
+width: 0px;
+background: #0352cc;
+position: absolute;
+top:0;
+left:0;
+transition: all 0.4s ease-in-out;
+}
+
+ul a:hover::after{
+width: 100%;
+}
+.thanheader{
+    width: 1150px;
+    height: 0.3px;
+    background-color: #ccc;
+    position: absolute;
+    top:1px;
+}
+
+

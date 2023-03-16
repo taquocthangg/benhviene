@@ -1,0 +1,155 @@
+.container{
+    width: 100%;
+    height:800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.container .right{
+    width: 100%;
+    background-image: url("https://id-v121.medpro.com.vn/static/media/cover-14.cdc08a1d.jpg");
+    background-size: cover;
+    height: 800px;
+    background-position-y:-360px ;
+    /* background-position-x: 80%;
+    background-size:cover ;
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 50%;
+    height: 100%; */
+}
+.container .left{
+    /* position: absolute;
+    top:0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column ; */
+}
+.container .left .header{
+    width: 100%;
+    height:94px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+
+}
+.container .left .header .icon{
+    width: 500px;
+    height: 24px;
+}
+
+.container .left .header .logo{
+    width:500px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.container .left .header .logo>img{
+    width:150px;
+    height: 65px;
+}
+.container .left .form{
+    width: 100%;
+    height: 480px;
+
+    display: flex;
+    justify-content: center;
+}
+.container .left .form .content{
+    width: 394px;
+    height: 484px;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    height: 24px;
+    width: 290px;
+    padding-top: 10px;
+}
+.CONTINIU,
+.menu {
+    width:390px;
+    height: 50px;
+    background-color: black;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #1da1f2!important;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.text_sdt{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+.SDT{
+    border: 1px solid;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width:390px;
+    height:47px;
+   border-radius: 8px;
+   margin-top: 10px;
+   border: 1px solid #cacaca;
+}
+.SDT>input{
+    padding-left: 10px;
+    width:370px;
+    height: 45px;
+   border-radius: 8px;
+   outline: none;
+}
+.icon-sdt{
+    padding-left: 5px;
+}
+.text1{
+    margin:28px 14px 0 0 ;
+    font-size: 14px;
+    text-align: center;
+}
+
+.text_tieptuc{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu1,
+.menu2,
+.menu3,
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.menu>img{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left:96px;
+}
+.menu>span{
+    position: absolute;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    left: 140px;
+}
+.menu1{
+    background-color: #007bff!important;
+}
+.menu2{
+    background-color: #ef5252!important;
+}
+.menu3{
+    background-color: #293688!important;
+    
+}
+.iconfb{
+    background-color: #fff;
+}

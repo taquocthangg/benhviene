@@ -1,0 +1,73 @@
+header{
+    /* display: none !important; */
+}
+.banner{
+    display: flex;
+    width: 100%;
+    height: 540px;
+    background: url('https://medpro.vn/static/media/bgBanner.00baac29.png');
+    background-size: cover;
+}
+.wrapper{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1070px;
+    height: 410px;
+    margin-top: 60px;
+}
+.info{
+    width: 420px;
+    text-align: center;
+    color: #fff;
+}
+.info h1{
+    margin-bottom: 20px;
+}
+.thongke{
+    width: 100%;
+    height: 430px;
+    background: url('https://medpro.vn/static/media/BG_CLINIC.2ca22859.svg');
+}
+.contents{
+    text-align: center;
+    padding: 30px;
+    font-weight: 700;
+    color: #1e56c5;
+    font-size: 28px;
+}
+.show{
+    margin: 0 auto;
+    width: 1230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.thongso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.content{
+    
+    font-size: 28px;
+    font-weight: 600;
+    color: #1e56c5;
+}
+.decs{
+    font-size: 14px;
+    font-weight: 600;
+}
+.thongso img:hover{
+    cursor: pointer;
+}
+.content, .tilte{
+    text-align: center;
+}
+.containerStyle .content{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
