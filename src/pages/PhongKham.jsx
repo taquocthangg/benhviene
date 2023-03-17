@@ -2,14 +2,16 @@ import '../css/phongkham.css'
 const PhongKham = () => {
   return (
       <main>
-        <div className="banner">
-            <div className="wrapper">
-                <div className="info">
-                    <h1>Hệ thống quản lý Phòng khám/phòng mạch</h1>
-                    <p>Hiện đại hóa Phòng khám của bạn thành Hệ thống tối ưu với Ứng dụng Bệnh Viện E.</p>
-                </div>
-                <div className="title">
-                    <img src="https://medpro.vn/static/media/laptop_banner.5b289611.svg" alt="" />
+        <div className="wrap">
+            <div className="banner">
+                <div className="wrapper">
+                    <div className="info">
+                        <h1>Hệ thống quản lý Phòng khám/phòng mạch</h1>
+                        <p>Hiện đại hóa Phòng khám của bạn thành Hệ thống tối ưu với Ứng dụng Bệnh Viện E.</p>
+                    </div>
+                    <div className="title">
+                        <img src="https://medpro.vn/static/media/laptop_banner.5b289611.svg" alt="" />
+                    </div>
                 </div>
             </div>
         </div>

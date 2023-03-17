@@ -12,7 +12,7 @@ const Fooder = () => {
         <div className="footerContainers">
          <div className="wrapper">
           <div className="logo">
-            <img src="https://benhviene.com/images/logoVienE101.png" alt="" />
+            <img src="https://resource.medpro.com.vn/static/images/medpro/web/footer_logo.svg?t=96194.50999701483" alt="" />
           </div>
           <div className="contents">
             <p className="content">
