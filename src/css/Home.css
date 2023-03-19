@@ -1,3 +1,7 @@
+*:focus {
+    outline: 0;
+    outline: none;
+  }
 .home{
     display: flex;
     flex-direction: column;
@@ -12,11 +16,7 @@
 .banner_img img{
     
     width: 103%;
-}
-.slick-arrow {
-    display: none !important;
-}
-
+}  
 .box {
     width: 100%;
     display: flex;
@@ -42,17 +42,17 @@
     grid-gap: 0.3rem;
 }
 
+.service_style img {
+    width: 55px;
+    height: 55px;
+}
 h4 {
     padding: 30px;
     font-size: 20px;
 }
 
-.service_style img {
-    width: 55px;
-    height: 55px;
-}
 .home_gioithieu{
-    border-bottom: 1px solid #dfe3eb;
+    /* border-bottom: 1px solid #dfe3eb; */
     padding-bottom: 60px;
     display: flex;
     flex-direction: column;
@@ -90,19 +90,15 @@ h3 {
 .bg-img{
     margin-top: 117px;
 }
-
-.bg-img img {
-    /* width: 100%; */
-}
-.test{
+.chondichvu{
     padding: 10px;
 }
-.test p {
+.chondichvu p {
     margin: 0 auto;
     width: 106px;
     font-size: 14px;
 }
-.test:hover{
+.chondichvu:hover{
     cursor: pointer;
 }
 .home_quytrinh{
@@ -159,14 +155,12 @@ h3 {
     border-bottom-style:dashed;
     border-bottom-color: rgba(0, 0, 0, 0.5);
 }
-.dot{
-    border-top: 1px solid;
-    margin-top: 145px;
+.home_trienkhais{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
-.home_trienkhai-sl{
-    margin: 0 auto;
-    width: 354px !important;
-    text-align:center ;
+.home_trienkhai_page{
     
 }
 .home_trienkhai-sl img{
@@ -174,15 +168,10 @@ h3 {
     height: 212px;
     border-radius: 10px;
 }
-.home_trienkhai{
-    width: 1140px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-}
 .home_trienkhai-sl:hover{
     cursor: pointer;
 }
-.download{
+.content_bot{
     background: #fff;
     padding-top: 30px;
 }
@@ -253,5 +242,56 @@ h3 {
 .downbot_iconr{
     display: flex;
     flex-direction: column;
-    align-items: start;
+}
+.tintuc{
+    background-color: #fff;
+}
+.tintuc_contents{
+    /* max-width: 1080px; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+/* .tintuc_content img:first-child{
+    width: 445px;
+} */
+.tintuc_content img{
+    border-radius: 10px;
+    width: 302px;
+}
+.tintuc_content:first-child{
+    grid-row: 1/3;
+}
+.tintuc_content:first-child img{
+    width: 445px;
+}
+.hotro_lienhes{
+    width: 1080px;
+    display: flex;
+    margin: 0 auto;
+    gap: 40px;
+    padding: 50px;
+}
+.hotro_lienhe img{
+    width: 80;
+    height: 80px;
+}
+.hotro{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+}
+.hotro_lienhe{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 254px;
+    height: 200px;
+    padding: 40px;
+    border: 1px solid #ceced0;
+    gap: 20px;
 }

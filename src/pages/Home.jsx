@@ -2,17 +2,21 @@ import { Link } from "react-router-dom"
 import '../css/main.css'
 import '../css/Header.css'
 import '../css/Home.css'
-import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { banner, CHONDICHVU, hethongbenhvien, logo, quytrinh, taiungdung } from '../data'; //Thêm dữ liệu
+import { banner, CHONDICHVU, hethongbenhvien, hotro, quytrinh, tintuc } from '../data'; //Thêm dữ liệu
+import { TaiUngDung } from "./TaiUngDung";
 const Home = () => {
+
+
   // Thiết lập silder home page
   const settings = {
     dots: false,
     fade: true,
     infinite: true,
+    arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -20,39 +24,43 @@ const Home = () => {
     autoplaySpeed: 3000,
     cssEase: "linear"
   };
+
+
   // Thiết lập sider hệ thống bệnh viện
   const hethongsl = {
     dots: false,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 3,
-    autoplay: true,
+    arrows: false,
+    // autoplay: true,
     speed: 500,
     autoplaySpeed: 2000,
     cssEase: "linear"
   };
   return (
-    <div className="home">
+    <div className="home"
+    >
       {/* Silder Home */}
       <div className="silder">
-          <div className="banners">
-        <Slider {...settings}>
-            {banner.map((banner)=>{
-              return(
-                <div className="banner_img">
+        <div className="banners">
+          <Slider {...settings}>
+            {banner.map((banner, i) => {
+              return (
+                <div className="banner_img" key={banner.id}>
                   <img src={banner.img} alt="" />
                 </div>
               )
             })}
-        </Slider>
-          </div>
+          </Slider>
+        </div>
         <div className="box">
           <div className="box_service">
             <h4>Chọn Dịch Vụ</h4>
             <div className="service_style">
-              {CHONDICHVU.map((chondichvu) => {
+              {CHONDICHVU.map((chondichvu, i) => {
                 return (
-                  <div className="test" key={chondichvu.id}>
+                  <div className="chondichvu" key={chondichvu.id}>
                     <img src={chondichvu.img} alt="" />
                     <p>{chondichvu.name}</p>
                   </div>
@@ -63,12 +71,18 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+
       {/* Back group phần giới thiệu */}
       <div className="backgroud">
         <img className='' src="https://medpro.vn/static/media/bg_new.9578e7c5.jpg" alt="" />
       </div>
+
+
       {/* Wrapper */}
       <div className="wrappers">
+
+
         {/* Giới thiệu về quy trình */}
         <div className="home_gioithieu">
           <div className="text">
@@ -85,7 +99,7 @@ const Home = () => {
           </div>
           <div className="home_quytrinh">
             <div className="quytrinh_img">
-              {quytrinh.map((quytrinh) => {
+              {quytrinh.map((quytrinh, i) => {
                 return (
                   <div className="quytrinh_container" key={quytrinh.id}>
                     <div className="quytrinh_container_contents">
@@ -102,70 +116,75 @@ const Home = () => {
           </div>
           <span className='timhieu'>Tìm hiểu thêm về quy trình <Link to='' className="quytrinh_dki">đăng ký khám bệnh</Link></span>
         </div>
+
+
         {/* Nội dung triển khai */}
-        <div className="home_trienkhai">
-          <h1>HỆ THỐNG BỆNH VIỆN TRIỂN KHAI</h1>
-          <Slider {...hethongsl}>
-            {hethongbenhvien.map((hethongbenhvien) => {
-              return (
-                <div className="home_trienkhai-sl">
-                  <img src={hethongbenhvien.img} alt="" />
-                  <span>{hethongbenhvien.name}</span>
-                </div>
-              )
-            })}
-          </Slider>
-        </div>
-        {/* Tải Ứng Dụng */}
-        <div className="download">
-          <div className="downtop">
-            <div className="downtop_text">
-            <span className="downtop_text_top">DOWNLOAD</span>
-            </div>
-            <div className="downtop_bot">
-              <div className="downtop_bot_content">
-                Tải Ứng Dụng <span>MEDPRO</span>
-              </div>
-              <div className="downtop_bot_contents">
-                {logo.map((logo)=> {
-                  return(
-                    <div className="downtop_bot_content" key={logo.id}>
-                        <img src={logo.img} alt="" />
+        <div className="home_trienkhais">
+          <div className="home_trienkhai">
+            <h1>HỆ THỐNG BỆNH VIỆN TRIỂN KHAI</h1>
+          </div>
+            <div className="home_trienkhai_page">
+              <Slider {...hethongsl}>
+                {hethongbenhvien.map((hethongbenhvien) => {
+                  return (
+                    <div className="home_trienkhai-sl">
+                      <img src={hethongbenhvien.img} alt="" />
+                      <span>{hethongbenhvien.name}</span>
                     </div>
                   )
                 })}
-              </div>
+              </Slider>
             </div>
         </div>
-        <div className="downbot">
-          <div className="downbot_content">
-            {taiungdung.map((taiungdung)=>{
-              return(
-                <div className="downbot_icon">
-                  <img src={taiungdung.icon} alt="" />
-                  <p>{taiungdung.chucnang}</p>
-                  <p>{taiungdung.chucnang1}</p>
-                  <p>{taiungdung.chucnang2}</p>
+
+      </div>
+
+
+      <div className="content_bot">
+        {/* Tải Ứng Dụng */}
+        <TaiUngDung />
+      </div>
+      <div className="tintuc">
+        <div className="wrappers">
+          <h3>Tin Tức && Sự Kiện</h3>
+          <div className="tintuc_contents">
+            {tintuc.map((tintuc) => {
+              return (
+                <div className="tintuc_content">
+                  <img src={tintuc.img} alt="" />
+                  <h5>{tintuc.content}</h5>
+                  <p>{tintuc.tilte}</p>
+                  <p>{tintuc.dec}</p>
+                  <div className="more">
+                  </div>
                 </div>
               )
             })}
-          </div>
-          <div className="downbot_content">
-            <img src="https://resource.medpro.com.vn/static/images/medpro/web/slide.png?t=42565.989343452224" alt="" />
-          </div>
-          <div className="downbot_content">
-          {taiungdung.map((taiungdung)=>{
-              return(
-                <div className="downbot_iconr">
-                  <img src={taiungdung.icon} alt="" />
-                  <p>{taiungdung.chucnang}</p>
-                  <p>{taiungdung.chucnang1}</p>
-                  <p>{taiungdung.chucnang2}</p>
-                </div>
-              )
-            })}
+            <Link to='tin-tuc'>Xem Thêm</Link>
           </div>
         </div>
+      </div>
+
+      {/* Nội dung Hỗ Trợ */}
+      <div className="hotro">
+        <div className="downtop_text">
+          <div className="downtop_text_top">
+            Hỗ Trợ
+          </div>
+        </div>
+        <div className="hotro_text">
+          CÁC HÌNH THỨC HỖ TRỢ
+        </div>
+        <div className="hotro_lienhes">
+          {hotro.map((hotro) => {
+            return (
+              <div className="hotro_lienhe">
+                <Link href="#"><img src={hotro.icon} alt="" /></Link>
+                <p>{hotro.content}</p>
+                <Link href="#"><p>{hotro.tilte}</p></Link>
+              </div>
+            )
+          })}
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import '../css/Footer.css'
 import { useLocation } from "react-router-dom";
+import { footer, } from "../data";
 
 const Fooder = () => {
   const { pathname } = useLocation();
@@ -51,15 +52,18 @@ const Fooder = () => {
             </p>
           </div>
           <div className="listGroup">
-            <img src="https://api.benhviene.com/data/images/198_00df28c5_28a5_4ba1_94a4_e8ea41935293.png" alt="" />
-            <img src="https://api.benhviene.com/data/images/198_00df28c5_28a5_4ba1_94a4_e8ea41935293.png" alt="" />
-            <img src="https://api.benhviene.com/data/images/198_00df28c5_28a5_4ba1_94a4_e8ea41935293.png" alt="" />
-            <img src="https://api.benhviene.com/data/images/198_00df28c5_28a5_4ba1_94a4_e8ea41935293.png" alt="" />
+          {footer.map((footer) => {
+            return (
+              <div className="listGroupicon">
+                <img src={footer.img} alt="" />
+              </div>
+            )
+          })}
           </div>
          </div>
         </div>
          <div className="footeBot">
-         © 2023 des by Quoc Thang & Tien Khoai
+         © 2023 des by <a href="https://www.facebook.com/tqtntnl2413">Quốc Thắng</a> &  <a href="https://www.facebook.com/khoai.vutien.9">Tiến Khoái</a>
          </div>
       </footer>
     </main>

@@ -1,0 +1,51 @@
+.content_gt{
+    position: relative;
+
+
+}
+.headertttt{
+    height: 117px;
+    width: 100%;
+}
+.header_ct>p{
+    font-size:35px;
+    color: #fff;
+    font-weight:550;
+}
+.baner{
+    position: absolute;
+    top:275px;
+    width:1140px;
+    height:630px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 50px;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.baner1{
+    display: flex;
+    justify-content: center;
+}
+.baner2{
+    font-weight: bold;
+}
+.noidung{
+    list-style-type: circle;/*o chon dau dong*/
+    margin-top:20px;
+}
+.noidung1{
+    
+    margin-top:20px;
+
+}
+.header_cttt{
+    height:117px;
+}
+.header_tong{
+    height:1000px;
+    background-color: #fff;
+}

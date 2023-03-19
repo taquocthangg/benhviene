@@ -2,9 +2,9 @@ import { Link } from "react-router-dom"
 import '../css/uslogin.css'
 import { AiOutlineArrowLeft } from 'react-icons/ai';
 import { GiEarthAfricaEurope } from 'react-icons/gi';
-import iconzalo  from '../img/iconzalo.png'
-import icongg  from '../img/icongg.png'
-import iconfb  from '../img/iconfb.png'
+import Iconzalo  from '../img/iconzalo.png'
+import Icongg  from '../img/icongg.png'
+import Iconfb  from '../img/iconfb.png'
 const login = () => {
     return (
         <div className="container">
@@ -29,15 +29,15 @@ const login = () => {
                 </button>
                 <p class="text1">Hoặc đăng nhập bằng tài khoản</p>
                 <button class="menu menu1">
-                    <img src={iconzalo} alt="" />
+                    <img src={Iconzalo} alt="" />
                     <span>ĐĂNG NHẬP VỚI ZALO</span>
                 </button>
                 <button class="menu menu2">
-                    <img src={icongg} alt="" />
+                    <img src={Icongg} alt="" />
                     <span>ĐĂNG NHẬP VỚI GOOGLE</span>
                 </button>
                 <button class="menu menu3">
-                    <img src={iconfb} alt="" class="iconfb" />
+                    <img src={Iconfb} alt="" class="iconfb" />
                     <span>ĐĂNG NHẬP VỚI FACEBOOK</span>
                 </button>
             </div>

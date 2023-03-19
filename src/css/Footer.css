@@ -21,20 +21,24 @@ footer{
 }
 
 .footerContainers .listGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     width: 285px;
     font-size: 14px;
 }
 
 .footerContainers .listGroup img {
     width: 110px;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 10px;
 }
 
 .footerContainers .listGroup img:hover {
     cursor: pointer;
 }
-
+.listGroupicon{
+    display: flex;
+}
 .title {
     font-size: 14px;
 }

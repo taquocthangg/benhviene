@@ -1,0 +1,53 @@
+.header_qt{
+    height:117px;
+    background-color: red;
+    /* position: relative; */  
+}
+.container_qt{
+    min-height:1000px;
+    width: 100%;
+}
+.background_qt{
+    margin-top: 117px;
+    height: 200px;
+    width: 100%;
+    background-image: url('https://medpro.vn/static/media/blur-02.1465d0ac.jpg');
+    background-repeat:no-repeat !important;
+    background-position: 50%;
+    background-size:100%;
+    position: fixed;
+    z-index: -90000;
+}
+.text_qt{
+
+    height: 200px;
+    width: 100%;
+    padding-top: 117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_qt>p{
+    color: #fff;
+    opacity: 1;
+    font-size: 35px;
+    font-weight:600;
+
+}
+.content_qt{
+    background-color: #fff;
+}
+.kc_text{
+    padding-left:17px;
+}
+.text_right{
+    font-weight: 400;
+    padding-top: 10px;
+    font-size: 17px;
+    list-style-type:circle
+
+}
+.text_right:hover{
+    color: #307be7;
+    cursor: default;
+}

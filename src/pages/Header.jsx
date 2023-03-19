@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import { FiSmartphone } from 'react-icons/fi';
 import { BiLogIn } from 'react-icons/bi';
 
+
 const Header = () => {
   const { pathname } = useLocation();
   console.log(pathname);
@@ -13,17 +14,19 @@ const Header = () => {
       <div className="menubar">
         <div className="menuLogo">
           <Link to='/'> 
-          <img src="https://resource.medpro.com.vn/static/images/medpro/web/header_logo.svg?t=48463.12747413823" alt="" class="icon_logobenhvien" />
+          <img src="https://resource.medpro.com.vn/static/images/medpro/web/header_logo.svg?t=48463.12747413823" alt="" className="icon_logobenhvien" />
           </Link>
         </div>
         <div className="menuFix">
         <div className="menuFixTop">
           <div className="menuLogin menu_taiungdung">
-            <icon class="phone"><FiSmartphone/></icon>
-           Tải ứng dụng
+            <icon className="hone"><FiSmartphone/></icon>
+            <Link  to="tai-ung-dung" spy={true} smooth={true} offset={50} duration={500}>
+         Tai
+        </Link>
           </div>
           <div className="menuLogin menu_dangnhap">   
-          <icon class="header_login"><BiLogIn/></icon>
+          <icon className="header_login"><BiLogIn/></icon>
             <Link to="login" className="dangnhap">Đăng nhập</Link>
           </div>
 
@@ -34,56 +37,56 @@ const Header = () => {
 </div>
             <ul>
               <li>
-                <Link class="menuba">
+                <Link to="/" className="menuba ">
                 Trang chủ
                 </Link>
               </li>
             </ul>
             <ul>
               <li>
-                <Link class="menuba">
+                <Link to="gioi-thieu" className="menuba">
                 Giới thiệu
                 </Link>
               </li>
             </ul>
             <ul>
               <li>
-                <Link class="menuba">
+                <Link to="quy-trinh" className="menuba">
                 Quy trình
                 </Link>
               </li>
             </ul>
             <ul>
               <li>
-                <Link class="menuba">
+                <Link to="huong-dan" className="menuba">
                 Hướng dẫn
                 </Link>
               </li>
             </ul>
             <ul>
               <li>
-                <Link class="menuba" to="">
+                <Link to='tin-tuc' className="menuba" >
                 Tin tức
                 </Link>
               </li>
             </ul>
             <ul>
               <li>
-                <Link class="menuba" to="">
+                <Link to='thac-mac' className="menuba" >
                 Thắc Mắc
                 </Link>
               </li>
             </ul>
             <ul>
               <li>
-                <Link class="menuba" to="">
+                <Link to='lien-he' className="menuba" >
                 Liên Hệ
                 </Link>
               </li>
             </ul>
             <ul>
               <li>
-                <Link class="menuba" to="phongkham">
+                <Link to='phong-kham-phong-mach' className="menuba">
                 Phòng khám/Phòng mạch
                 </Link>
               </li>
