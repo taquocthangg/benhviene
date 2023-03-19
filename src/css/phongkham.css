@@ -71,3 +71,20 @@
     margin-top: 50px;
     margin-bottom: 40px;
 }
+.btn_phongkham{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+.btn_dangky, .btn_dangnhap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 57px;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: #ccc;
+}

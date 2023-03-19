@@ -16,8 +16,9 @@ import QuyTrinh from './pages/QuyTrinh';
 import { TinTuc } from "./pages/TinTuc.jsx";
 import { ThacMac } from "./pages/ThacMac.jsx";
 import LienHe from "./pages/LienHe.jsx";
-// import { TaiUngDung } from "./pages/TaiUngDung.jsx";
 import Err404 from "./pages/Err404.jsx";
+import LoginPhongKham from "./pages/LoginPhongKham.jsx";
+import DangKy from "./pages/DangKy.jsx";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
         <Routes>
           <Route path='/' element = {<Home />} />
           <Route path='login' element = {<Login />} />
-          {/* <Route path='tai-ung-dung' element = {<TaiUngDung />} /> */}
+          <Route path='phong-kham-phong-mach/dang-nhap' element = {<LoginPhongKham />} />
+          <Route path='phong-kham-phong-mach/dang-ky' element = {<DangKy />} />
           <Route path='gioi-thieu' element = {<GioiThieu/>} />
           <Route path='quy-trinh' element = {<QuyTrinh/>} />
           <Route path='huong-dan' element = {<HuongDan/>} />

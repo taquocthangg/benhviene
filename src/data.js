@@ -176,25 +176,25 @@ export const tintuc = [
     },
     {
         id: 2,
-        img: require('./img/tin tuc/Benh-Nhan-Bi-Hau-Cov-01.jpg'),
+        img: require('./img/tin tuc/1676887978090_50ece3644d.png'),
         content: 'TIÊM VACXIN TRƯỚC KHI SINH: NHỮNG MŨI TIÊM NÀO CẦN THIẾT CHO PHỤ NỮ?',
         tilte: '16/03/2023, 12:07 - NGUYEN CAM',
     },
     {
         id: 3,
-        img: require('./img/tin tuc/Benh-Nhan-Bi-Hau-Cov-01.jpg'),
+        img: require('./img/tin tuc/1675331020446_884ab305a5.png'),
         content: 'CHÍNH THỨC ĐẶT LỊCH TẠI BỆNH VIỆN ĐẠI HỌC Y TÂN TẠO TRÊN ỨNG DỤNG MEDPRO',
         tilte: '16/03/2023, 09:39 - NGUYEN CAM',
     },
     {
         id: 4,
-        img: require('./img/tin tuc/Benh-Nhan-Bi-Hau-Cov-01.jpg'),
+        img: require('./img/tin tuc/1677654580646_a1fe830a07.png'),
         content: 'TỔNG HỢP CÁC BỆNH VIỆN VÀ PHÒNG KHÁM ĐÃ CÓ THỂ ĐẶT LỊCH KHÁM BỆNH TRƯỚC',
         tilte: '15/03/2023, 03:33 - NGUYEN CAM',
     },
     {
         id: 5,
-        img: require('./img/tin tuc/Benh-Nhan-Bi-Hau-Cov-01.jpg'),
+        img: require('./img/tin tuc/tongdaidatkhamnhanh_346b3e51c2.jpg'),
         content: 'HƯỚNG DẪN ĐẶT LỊCH KHÁM BỆNH QUA TỔNG ĐÀI 19002115 NHANH CHÓNG VÀ TIỆN LỢI',
         tilte: '11/03/2023, 10:55 - Steve',
     },
@@ -239,5 +239,38 @@ export const footer = [
     },
     {
         img:require('./img/footer/appstore.cdb12f48.png'),
+    },
+]
+
+export const thongke = [
+    {
+        id: 1,
+        icon: require('./img/phongkham/thongke/LuotDatKham.ee5fdeb7.png'),
+        content: '500.000',
+        title:'Lượt Đặt Khám',
+    },
+    {
+        id: 2,
+        icon: require('./img/phongkham/thongke/BenhVien.fc30f870.png'),
+        content: '50',
+        title:'Phòng khám/Phòng mạch',
+    },
+    {
+        id: 3,
+        icon: require('./img/phongkham/thongke/LuotDatKham.ee5fdeb7.png'),
+        content: '150',
+        title:'Bác Sĩ',
+    },
+    {
+        id: 4,
+        icon: require('./img/phongkham/thongke/LuotTruyCap.53245e54.png'),
+        content: '3713',
+        title:'Lượt Truy Cập',
+    },
+    {
+        id: 5,
+        icon: require('./img/phongkham/thongke/LuotDatKham.ee5fdeb7.png'),
+        content: '2773',
+        title:'Lượt Truy Cập Hiện Tại',
     },
 ]

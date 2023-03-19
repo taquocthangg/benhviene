@@ -7,7 +7,7 @@ import { BiLogIn } from 'react-icons/bi';
 const Header = () => {
   const { pathname } = useLocation();
   console.log(pathname);
-  if (pathname === "/login") return null;
+  if (pathname === "/login" || pathname === "/phong-kham-phong-mach/dang-nhap"|| pathname === "/phong-kham-phong-mach/dang-ky") return null;
   return (
     <header>
       <div className="containers">  

@@ -6,7 +6,7 @@ import { footer, } from "../data";
 const Fooder = () => {
   const { pathname } = useLocation();
   console.log(pathname);
-  if (pathname === "/login") return null;
+  if (pathname === "/login" || pathname === "/phong-kham-phong-mach/dang-nhap"|| pathname === "/phong-kham-phong-mach/dang-ky") return null;
   return (
     <main>
       <footer>
