@@ -3,94 +3,74 @@ import { useLocation } from "react-router-dom";
 import { FiSmartphone } from 'react-icons/fi';
 import { BiLogIn } from 'react-icons/bi';
 
-
 const Header = () => {
   const { pathname } = useLocation();
   console.log(pathname);
-  if (pathname === "/login" || pathname === "/phong-kham-phong-mach/dang-nhap"|| pathname === "/phong-kham-phong-mach/dang-ky") return null;
+  if (pathname === "/login") return null;
   return (
     <header>
       <div className="containers">  
       <div className="menubar">
         <div className="menuLogo">
           <Link to='/'> 
-          <img src="https://resource.medpro.com.vn/static/images/medpro/web/header_logo.svg?t=48463.12747413823" alt="" className="icon_logobenhvien" />
+          <img src="https://resource.medpro.com.vn/static/images/medpro/web/header_logo.svg?t=48463.12747413823" alt="" class="icon_logobenhvien" />
           </Link>
         </div>
         <div className="menuFix">
         <div className="menuFixTop">
           <div className="menuLogin menu_taiungdung">
-            <icon className="hone"><FiSmartphone/></icon>
-            <Link  to="tai-ung-dung" spy={true} smooth={true} offset={50} duration={500}>
-         Tai
-        </Link>
+            <icon class="phone"><FiSmartphone/></icon>
+           Tải ứng dụng
           </div>
           <div className="menuLogin menu_dangnhap">   
-          <icon className="header_login"><BiLogIn/></icon>
+          <icon class="header_login"><BiLogIn/></icon>
             <Link to="login" className="dangnhap">Đăng nhập</Link>
           </div>
 
         </div>
         <div className="menuFixBot">
-        <div className="thanheader">
-
-</div>
             <ul>
-              <li>
-                <Link to="/" className="menuba ">
+              <li class="menubot">
+                <Link to="/" class="menuba ">
                 Trang chủ
                 </Link>
               </li>
-            </ul>
-            <ul>
-              <li>
-                <Link to="gioi-thieu" className="menuba">
+              <li class="menubot">
+                <Link to="gioi-thieu" class="menuba">
                 Giới thiệu
                 </Link>
               </li>
-            </ul>
-            <ul>
-              <li>
-                <Link to="quy-trinh" className="menuba">
+              <li class="menubot">
+                <Link to="quy-trinh" class="menuba">
                 Quy trình
                 </Link>
               </li>
-            </ul>
-            <ul>
-              <li>
-                <Link to="huong-dan" className="menuba">
+              <li class="menubot">
+                <Link to="huong-dan" class="menuba">
                 Hướng dẫn
                 </Link>
               </li>
-            </ul>
-            <ul>
-              <li>
-                <Link to='tin-tuc' className="menuba" >
+              <li class="menubot">
+                <Link class="menuba" to="tin-tuc">
                 Tin tức
                 </Link>
               </li>
-            </ul>
-            <ul>
-              <li>
-                <Link to='thac-mac' className="menuba" >
+              <li class="menubot">
+                <Link class="menuba" to="thac-mac">
                 Thắc Mắc
                 </Link>
               </li>
-            </ul>
-            <ul>
-              <li>
-                <Link to='lien-he' className="menuba" >
+              <li class="menubot">
+                <Link class="menuba" to="lien-he">
                 Liên Hệ
                 </Link>
               </li>
-            </ul>
-            <ul>
-              <li>
-                <Link to='phong-kham-phong-mach' className="menuba">
+              <li class="menubot">
+                <Link class="menuba" to="phong-kham-phong-mach">
                 Phòng khám/Phòng mạch
                 </Link>
-              </li>
-            </ul>
+                </li>
+              </ul>
           </div>
         </div>
 

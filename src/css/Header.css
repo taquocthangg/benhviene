@@ -4,8 +4,10 @@
     background-color: #fff;
     height: 118px;
     position: fixed;
-    z-index: 99999999;
+    z-index: 90000;
     width: 100%;
+    top:0;
+
 }
 .containers .menuLogo{
     display: flex;
@@ -17,6 +19,9 @@
 .menubar{
     margin: 0 auto;
     display: flex;
+    width: 100%;    
+    
+    position: relative;
 }
 .menuFixTop{
     display: flex;
@@ -84,14 +89,14 @@ line-height: 37px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   /* width: 1200px; */
+   width: 1200px;
 
 }
 .menuFixBot{
     display: flex;
     justify-content: center;
     bottom: 0;
-    gap:30px;
+    /* gap:30px; */
     height: 50px;
     line-height: 50px;
     
@@ -122,13 +127,14 @@ line-height: 37px;
     margin-right:8px;
     font-size: 25px;
     margin-top: 5px;
-    
+    color: white;
 }
 .menuFixBot{
     position: relative;
 }
 ul li{
     position: relative;
+    display: inline-block;
 }
 ul a::after{
 content: "";
@@ -150,6 +156,7 @@ width: 100%;
     background-color: #ccc;
     position: absolute;
     top:1px;
+    
 }
 
 

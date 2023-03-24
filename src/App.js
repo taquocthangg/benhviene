@@ -13,19 +13,20 @@ import PhongKham from './pages/PhongKham';
 import GioiThieu from './pages/GioiThieu';
 import HuongDan from './pages/HuongDan';
 import QuyTrinh from './pages/QuyTrinh';
-import { TinTuc } from "./pages/TinTuc.jsx";
+import TinTuc  from "./pages/TinTuc.jsx";
 import { ThacMac } from "./pages/ThacMac.jsx";
 import LienHe from "./pages/LienHe.jsx";
 import Err404 from "./pages/Err404.jsx";
 import LoginPhongKham from "./pages/LoginPhongKham.jsx";
 import DangKy from "./pages/DangKy.jsx";
-
+import ScrollToTop from "./componnets/ScrollToTop.js";
 function App() {
   return (
 
     <div className="App">
       <Router>
         <Header />
+        <ScrollToTop >
         <Routes>
           <Route path='/' element = {<Home />} />
           <Route path='login' element = {<Login />} />
@@ -41,7 +42,8 @@ function App() {
           <Route path='/*' element = {<Err404 />} />
           <Route/>
         </Routes>
-      <Fooder />
+      </ScrollToTop>
+      <Fooder />  
       </Router>
     </div>
   );

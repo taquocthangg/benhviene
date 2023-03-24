@@ -25,12 +25,23 @@ const Home = () => {
     cssEase: "linear"
   };
 
-
+  
   // Thiết lập sider hệ thống bệnh viện
-  const hethongsl = {
+  const hethongsldesk = {
     dots: false,
     infinite: true,
     slidesToShow: 3,
+    slidesToScroll: 3,
+    arrows: false,
+    autoplay: true,
+    speed: 500,
+    autoplaySpeed: 2000,
+    cssEase: "linear"
+  };
+  const trienkhaimobile = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
     slidesToScroll: 3,
     arrows: false,
     autoplay: true,
@@ -72,19 +83,9 @@ const Home = () => {
         </div>
       </div>
 
-
       {/* Back group phần giới thiệu */}
       <div className="backgroud">
-        <img className='' src="https://medpro.vn/static/media/bg_new.9578e7c5.jpg" alt="" />
-      </div>
-
-
-      {/* Wrapper */}
-      <div className="wrappers">
-
-
-        {/* Giới thiệu về quy trình */}
-        <div className="home_gioithieu">
+        {/* <img className='' src="https://medpro.vn/static/media/bg_new.9578e7c5.jpg" alt="" /> */}
           <div className="text">
             <div className="text_gioithieu">
               <p className='gioithieu'>
@@ -97,6 +98,16 @@ const Home = () => {
               <p>Medpro là giải pháp đặt lịch khám bệnh, chăm sóc sức khỏe trực tuyến cho cả gia đình. Người dùng chủ động trong việc khám chữa bệnh, được lựa chọn dịch vụ, chuyên khoa, bác sĩ tại các bệnh viện và phòng khám hàng đầu Việt Nam như Bệnh viện Đại học Y Dược TP.HCM, Bệnh viện Chợ Rẫy, Bệnh viện Nhi Đồng Thành Phố.</p>
             </div>
           </div>
+      </div>
+
+
+      {/* Wrapper */}
+      <div className="wrappers">
+
+
+
+        {/* Giới thiệu về quy trình */}
+        <div className="home_gioithieu">
           <div className="home_quytrinh">
             <div className="quytrinh_img">
               {quytrinh.map((quytrinh, i) => {
@@ -121,10 +132,27 @@ const Home = () => {
         {/* Nội dung triển khai */}
         <div className="home_trienkhais">
           <div className="home_trienkhai">
+            <p className="home_trienkhai_content">HỆ THỐNG BỆNH VIỆN TRIỂN KHAI</p>
+          </div>
+            <div className="home_trienkhai_page">
+              <Slider {...hethongsldesk}>
+                {hethongbenhvien.map((hethongbenhvien) => {
+                  return (
+                    <div className="home_trienkhai-sl">
+                      <img src={hethongbenhvien.img} alt="" />
+                      <p className="tenbenhvien">{hethongbenhvien.name}</p>
+                    </div>
+                  )
+                })}
+              </Slider>
+            </div>
+        </div>
+        <div className="trienkhaimobile">
+          <div className="home_trienkhai">
             <h1>HỆ THỐNG BỆNH VIỆN TRIỂN KHAI</h1>
           </div>
             <div className="home_trienkhai_page">
-              <Slider {...hethongsl}>
+              <Slider {...trienkhaimobile}>
                 {hethongbenhvien.map((hethongbenhvien) => {
                   return (
                     <div className="home_trienkhai-sl">
@@ -135,8 +163,7 @@ const Home = () => {
                 })}
               </Slider>
             </div>
-        </div>
-
+        </div>      
       </div>
 
 
@@ -146,7 +173,7 @@ const Home = () => {
       </div>
       <div className="tintuc">
         <div className="wrappers">
-          <h3>Tin Tức && Sự Kiện</h3>
+          <p className="content_tintucsk">Tin Tức && Sự Kiện</p>
           <div className="tintuc_contents">
             {tintuc.map((tintuc) => {
               return (
@@ -155,13 +182,13 @@ const Home = () => {
                   <h5>{tintuc.content}</h5>
                   <p>{tintuc.tilte}</p>
                   <p>{tintuc.dec}</p>
-                  <div className="more">
-                  </div>
                 </div>
               )
             })}
-            <Link to='tin-tuc'>Xem Thêm</Link>
           </div>
+                  <div className="more">
+            <Link to='tin-tuc'>Xem Thêm</Link>
+                  </div>
         </div>
       </div>
 

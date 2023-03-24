@@ -1,15 +1,26 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import { useForm } from "react-hook-form";
+import { yupResolver } from '@hookform/resolvers/yup';
+import * as yup from "yup";
+const schema = yup.object({
+  firstName: yup.string().required(),
+  password: yup.string().required().min(6),
+}).required();
 
-const LoginPhongKham = () => {
-    return (
-        <main>
-            <div className="pk_dangnhap">
-                <h1>Đây là trang đăng nhập của phòng khám nma chưa code :))))</h1>
-                <Link to='/'>Back</Link>
-            </div>
-        </main>
-    )
+export default function App() {
+  const { register, handleSubmit, formState:{ errors } } = useForm({
+    resolver: yupResolver(schema)
+  });
+  const onSubmit = data => console.log(data);
+
+  return (
+    <form onSubmit={handleSubmit(onSubmit)}>
+      <input {...register("firstName")} placeholder='Tên đăng nhập' />
+      <p>{errors.firstName?.message}</p>
+        
+      <input type='password' {...register("password")} />
+      <p>{errors.password?.message}</p>
+      
+      <input type="Dang Nhap" />
+    </form>
+  );
 }
-
-export default LoginPhongKham

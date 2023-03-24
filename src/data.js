@@ -228,17 +228,27 @@ export const hotro = [
 ]
 
 export const footer = [
+    {
+        logo:require('./img/footer/footer_logo.png'),
+        title: 'Liên Hệ',
+        img:require('./img/footer/googleplay.142f41c8.png'),
+    },
     {   
-        img:require('./img/footer/bocongthuong1.ce5cd70e.png'),
+        title: 'Điều khoản dịch vụ',
+        img:require('./img/footer/appstore.cdb12f48.png'),
+        name:'MEDPRO - ĐẶT LỊCH KHÁM BỆNH',
+        content: 'Địa chỉ: 235 Hoàng Quốc Việt',
+        webside: 'Website: https://pkh.vn',
+        email: 'Email: contact@pkh.vn',
+        number: 'Điện thoại: (028) 710 78098',
     },
     {
+        title:'Chính sách bảo mật',
         img:require('./img/footer/bocongthuong2.d032db55.png'),
     },
     {
-        img:require('./img/footer/googleplay.142f41c8.png'),
-    },
-    {
-        img:require('./img/footer/appstore.cdb12f48.png'),
+        title: 'Quy định sử dụng',
+        img:require('./img/footer/bocongthuong1.ce5cd70e.png'),
     },
 ]
 
@@ -274,3 +284,17 @@ export const thongke = [
         title:'Lượt Truy Cập Hiện Tại',
     },
 ]
+
+
+export const pklogin = {
+    input: [
+        {
+            label: 'Tên đăng nhập',
+            name: 'username',
+        },
+        {
+            label: 'Mật khẩu',
+            name: 'passwork',
+        },
+    ]
+}

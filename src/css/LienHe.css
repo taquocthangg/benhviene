@@ -1,0 +1,247 @@
+.background_lh{
+    background-image: url("https://medpro.vn/static/media/blur-01.b18ae4e7.jpg");
+    height: 490px;
+    width: 100%;
+    position: fixed;
+    background-size: cover;
+    z-index: -900000;
+    margin-top: 117px;
+}
+.container_lh{
+    font-family:aveta;
+    padding:60px 0;
+    height:500vh;
+    width: 100%;
+   
+}
+.content_lh{
+    width:100%;
+    margin-top: 118px;
+    flex-direction: column;
+}
+.haeder_lh{
+
+    height:170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+
+}
+.text_header{
+    text-align: center;
+}
+.text_header>p{
+padding-bottom: 5px;
+}
+.tieude_lh1{
+    margin-bottom: 20px;
+    font-size: 33px;
+}
+.slider_lh{
+    width: 100%;
+
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.slider_list{
+    display:flex;
+
+}
+.item_lh{
+    background-color: #fff;
+    width: 320px;
+    height: 185px;
+    margin-left: 30px;
+    text-align: center;
+    padding:30px 15px;
+    border-radius: 6px;
+
+}
+.item_lh>h2{
+    font-size: 22.5px;
+    margin-bottom: 8px;
+    color: #0e2b5c!important;
+}
+.item_lh>p{
+    line-height: 25px;
+    
+}
+.icon_lh{
+    width: 100%;
+    height:78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon_lh>img{
+    width: 40px;
+    height: 36px;
+    
+}
+.item_iconlh{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 10px; */
+}
+
+.iconzalo_lh{
+    margin: 10px 0;
+}
+.sdt_lh{
+    color:#00f;
+    font-weight: 900;
+}
+.sdt_lh>p:hover{
+cursor: pointer;
+color: #0056b3;
+}
+.text_itemlh>p{
+    font-size: 14px;
+}
+.text_itemlh:hover{
+cursor: pointer;
+color: #0056b3;
+}
+.icon_imglh>p{
+    margin-top: 10px;
+    color: red;
+    font-size: 14px;
+}
+.container_pagelh{
+    width: 100%;
+    min-height: 200px;
+    padding-top:60px;
+    display: flex;
+    justify-content: center;
+}
+.content_pagelh{
+width: 1140px;
+height: 1000px;
+background-color: #fff;
+margin-top:20px;
+border-radius: 6px;
+    min-height: 300px;
+    padding: 30px;
+    display: flex;
+}
+.pagelh_left{
+width: 360px;
+height: 500px;
+
+}
+.pagelh_right{
+    width: 720px;
+    height: 500px;
+
+}
+.pagelh_text{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.pagelh_left>ul li{
+width: 330px;
+display: flex;
+margin-bottom: 35px;
+}
+.icon_pageleft1{
+    width: 26px;
+    height: 30px;
+    margin-right: 20px;
+}
+.text_left1lh>p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #12263F;
+}
+.left1lh_mota01{
+    font-weight:900;
+
+}
+.icon_pageleft2{
+    width: 30px;
+    height: 30px;
+    margin-right:20px;
+}
+.pagelh_right1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.pagelh_input{
+    width:345px;
+
+}
+.chonvande{
+    width: 341px;
+}
+.input_hotro{
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+sup{
+    color:red;
+    font-size: 12px;
+}
+.hoten{
+    width:330px;
+    height: 43px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    border-radius:5px;
+    margin-bottom:5px ;
+    width: 330px;
+    transition: 0.25s  ease;
+    font-size: 14px;
+}
+.hoten:focus{
+    border-color: #0352cc;
+}
+.input_hotro{
+    margin-bottom:8px ;
+
+
+}
+.hotroo{
+    width:720px;
+    height: 105px;
+    padding:6px  12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'aveta';
+}
+.hotroo:focus{
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.button_hotro{
+    display: flex;
+    justify-content: flex-end;
+    margin-top:40px;
+    height: 37px;
+}
+.buttonhotro{
+    width: 220px;
+    height:37px;
+    background: #1da1f2;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.buttonhotro:hover{
+    background-color: #007bff;
+    color: #fff!important;
+}
+.text_buttonhotro{
+    font-size: 14px;
+    font-family:aveta;
+    
+}
+map{
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+}

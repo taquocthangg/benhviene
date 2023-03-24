@@ -86,5 +86,4 @@ const quytrinh = () => {
         </main>
     )
   }
-  
   export default quytrinh
