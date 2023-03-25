@@ -1,17 +1,11 @@
-import { Link } from "react-router-dom"
-import { useLocation } from "react-router-dom";
-import { FiSmartphone } from 'react-icons/fi';
-import { BiLogIn } from 'react-icons/bi';
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import "../css/Err400.css";
 import { AiOutlineAlignRight } from "react-icons/ai"
+function Navbar() {
 
-
-const Header = () => {
-
-  const { pathname } = useLocation();
-  console.log(pathname);
-  if (pathname === "/login" || pathname === "/phong-kham-phong-mach/dang-nhap"|| pathname === "/phong-kham-phong-mach/dang-ky") return null;
-
-  return (
+	return (
 		<header>
 			<div className="main">
 				<div className="navbar">
@@ -20,18 +14,13 @@ const Header = () => {
 					</label>
 					<div className="nav__logo">
 						<label for="" class="logo">
-							<a href="/"><img src="https://resource.medpro.com.vn/static/images/medpro/web/header_logo.svg?t=10787.381354053212" alt="" /></a>
+							<img src="https://resource.medpro.com.vn/static/images/medpro/web/header_logo.svg?t=10787.381354053212" alt="" />
 						</label>
 					</div>
 					<input type="checkbox" id="check" />
 					<div className="nav">
 						<div className="nav__top">
-							<div className="download">
-                Tải Ứng Dụng
-              </div>
-              <div className="login">
-                Đăng Nhập
-              </div>
+							Tải Ứng Dụng
 						</div>
 					<div className="nav__bot">
 				
@@ -62,7 +51,7 @@ const Header = () => {
 			</div>
 
 		</header>
-  )
+	);
 }
 
-export default Header
+export default Navbar;

@@ -1,6 +1,8 @@
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
+import Navbar
+ from "./Nav";
 const schema = yup.object({
   firstName: yup.string().required(),
   password: yup.string().required().min(6),
@@ -13,7 +15,9 @@ export default function App() {
   const onSubmit = data => console.log(data);
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
+    <div className="a">
+      <Navbar />
+    {/* <form onSubmit={handleSubmit(onSubmit)}>
       <input {...register("firstName")} placeholder='Tên đăng nhập' />
       <p>{errors.firstName?.message}</p>
         
@@ -21,6 +25,7 @@ export default function App() {
       <p>{errors.password?.message}</p>
       
       <input type="Dang Nhap" />
-    </form>
+    </form> */}
+    </div>
   );
 }
