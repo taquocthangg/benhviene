@@ -19,10 +19,6 @@
     padding: 30px;
 }
 
-.banner_img {
-    margin-top: 117px;
-}
-
 .banner_img img {
 
     width: 103%;
@@ -390,10 +386,6 @@ h3 {
         height: 45px;
     }
 
-    .box_service {
-        text-align: center;
-    }
-
     .service_style {
         width: 100%;
         display: grid;
@@ -425,7 +417,7 @@ h3 {
         background-image: linear-gradient(0, rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97));
         border-radius: 20px;
         box-shadow: 0 0 30px #ccc;
-        z-index: 999;
+        z-index: 1;
     }
 
     .backgroud {

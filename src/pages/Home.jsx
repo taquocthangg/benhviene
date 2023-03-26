@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import '../css/main.css'
-import '../css/Header.css'
 import '../css/Home.css'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -95,7 +94,7 @@ const Home = () => {
                 Đặt lịch khám bệnh</h3>
             </div>
             <div className="text_title">
-              <p>Medpro là giải pháp đặt lịch khám bệnh, chăm sóc sức khỏe trực tuyến cho cả gia đình. Người dùng chủ động trong việc khám chữa bệnh, được lựa chọn dịch vụ, chuyên khoa, bác sĩ tại các bệnh viện và phòng khám hàng đầu Việt Nam như Bệnh viện Đại học Y Dược TP.HCM, Bệnh viện Chợ Rẫy, Bệnh viện Nhi Đồng Thành Phố.</p>
+              <p>Medpro là giải pháp đặt lịch khám bệnh, chăm sóc sức khỏe trực tuyến cho cả gia đình. Người dùng chủ động trong việc khám chữa bệnh, được lựa chọn dịch vụ, chuyên khoa, bác sĩ tại các bệnh viện và phòng khám hàng đầu Việt Nam.</p>
             </div>
           </div>
       </div>

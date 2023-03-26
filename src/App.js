@@ -7,8 +7,8 @@ import {
 } from "react-router-dom";
 import Login from './pages/Login.jsx';
 import Home from './pages/Home.jsx';
-import Header from './pages/Header';
-import Fooder from './pages/Fooder';
+import Header from './componnets/Header/Header';
+import Fooder from './componnets/Footer/Fooder';
 import PhongKham from './pages/PhongKham';
 import GioiThieu from './pages/GioiThieu';
 import HuongDan from './pages/HuongDan';

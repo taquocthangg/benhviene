@@ -1,14 +1,9 @@
-.header_qt{
-    height:117px;
-    background-color: red;
-    /* position: relative; */  
-}
+
 .container_qt{
     min-height:1000px;
     width: 100%;
 }
 .background_qt{
-    margin-top: 117px;
     height: 200px;
     width: 100%;
     background-image: url('https://medpro.vn/static/media/blur-02.1465d0ac.jpg');
@@ -22,7 +17,6 @@
 
     height: 200px;
     width: 100%;
-    padding-top: 117px;
     display: flex;
     justify-content: center;
     align-items: center;

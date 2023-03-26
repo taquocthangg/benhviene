@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
-import '../css/Footer.css'
+import './Footer.css'
 import { useLocation } from "react-router-dom";
-import { footer, } from "../data";
+import { footer, } from "../../data";
 
 const Fooder = () => {
   const { pathname } = useLocation();
