@@ -31,7 +31,7 @@ const Fooder = () => {
           </div>
           <div className="footer__contents">
             <p className="footer__contents-title">
-              <Link to="" >
+              <Link to="lien-he" >
                 Liên Hệ
               </Link>
             </p>
@@ -54,7 +54,7 @@ const Fooder = () => {
           <div className="listGroup">
           {footer.map((footer) => {
             return (
-              <div className="listGroup__icon">
+              <div className="listGroup__icon" key={footer.id}>
                 <img src={footer.img} alt="" />
               </div>
             )
@@ -63,7 +63,7 @@ const Fooder = () => {
          </div>
         </div>
          <div className="footer__bot">
-         © 2023 design by <a href="https://www.facebook.com/tqtntnl2413">Quốc Thắng</a> &&  <a href="https://www.facebook.com/khoai.vutien.9">Tiến Khoái</a> && <a href="https://www.facebook.com/khoai.vutien.9">Lại Thị Tâm</a>
+         © 2023 design by <a href="https://www.facebook.com/tqtntnl2413">Quốc Thắng</a> &&  <a href="https://www.facebook.com/khoai.vutien.9">Tiến Khoái</a> && <a href="https://www.facebook.com/khoai.vutien.9">Lại Tâm</a>
          </div>
       </footer>
     </main>

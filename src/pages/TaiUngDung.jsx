@@ -27,7 +27,7 @@ export const TaiUngDung = () => {
           <div className="downbot_content">
             {taiungdung.map((taiungdung)=>{
               return(
-                <div className="downbot_icon">
+                <div className="downbot_icon" key={taiungdung.id}>
                   <img src={taiungdung.icon} alt="" />
                   <p>{taiungdung.chucnang}</p>
                   <p>{taiungdung.chucnang1}</p>
@@ -42,7 +42,7 @@ export const TaiUngDung = () => {
           <div className="downbot_content">
           {taiungdung.map((taiungdung)=>{
               return(
-                <div className="downbot_iconr">
+                <div className="downbot_iconr" key={taiungdung.id}>
                   <img src={taiungdung.icon} alt="" />
                   <p>{taiungdung.chucnang}</p>
                   <p>{taiungdung.chucnang1}</p>

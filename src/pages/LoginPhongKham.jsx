@@ -1,31 +1,13 @@
-import { useForm } from "react-hook-form";
-import { yupResolver } from '@hookform/resolvers/yup';
-import * as yup from "yup";
-import Navbar
- from "./Nav";
-const schema = yup.object({
-  firstName: yup.string().required(),
-  password: yup.string().required().min(6),
-}).required();
+import React from 'react'
+import { Form } from '../componnets/From'
 
-export default function App() {
-  const { register, handleSubmit, formState:{ errors } } = useForm({
-    resolver: yupResolver(schema)
-  });
-  const onSubmit = data => console.log(data);
-
+const LoginPhongKham = () => {
   return (
-    <div className="a">
-      <Navbar />
-    {/* <form onSubmit={handleSubmit(onSubmit)}>
-      <input {...register("firstName")} placeholder='Tên đăng nhập' />
-      <p>{errors.firstName?.message}</p>
-        
-      <input type='password' {...register("password")} />
-      <p>{errors.password?.message}</p>
+    <div>
+      <Form />
       
-      <input type="Dang Nhap" />
-    </form> */}
     </div>
-  );
+  )
 }
+
+export default LoginPhongKham

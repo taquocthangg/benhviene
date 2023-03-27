@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import Why from '../componnets/Why'
 import '../css/phongkham.css'
 import { thongke } from '../data'
 const PhongKham = () => {
@@ -51,6 +52,7 @@ const PhongKham = () => {
                     Điều này giúp chúng tôi tạo ra một hệ sinh thái tiện dụng và an toàn cho Bệnh viện và Phòng khám/Phòng mạch.
                 </p>
             </div>
+            <Why />
         </main>
     )
 }

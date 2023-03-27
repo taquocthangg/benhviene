@@ -228,12 +228,14 @@ export const hotro = [
 ]
 
 export const footer = [
-    {
+    {   
+        id:1,
         logo:require('./img/footer/footer_logo.png'),
         title: 'Liên Hệ',
         img:require('./img/footer/googleplay.142f41c8.png'),
     },
     {   
+        id:2,
         title: 'Điều khoản dịch vụ',
         img:require('./img/footer/appstore.cdb12f48.png'),
         name:'MEDPRO - ĐẶT LỊCH KHÁM BỆNH',
@@ -243,10 +245,12 @@ export const footer = [
         number: 'Điện thoại: (028) 710 78098',
     },
     {
+        id:3,
         title:'Chính sách bảo mật',
         img:require('./img/footer/bocongthuong2.d032db55.png'),
     },
     {
+        id:4,
         title: 'Quy định sử dụng',
         img:require('./img/footer/bocongthuong1.ce5cd70e.png'),
     },
@@ -298,3 +302,22 @@ export const pklogin = {
         },
     ]
 }
+
+export const uudiem = [
+    {
+        id:1,
+        name:'Giao diện đơn giản, dễ sử dụng',
+    },
+    {
+        id:2,
+        name:'Phù hợp theo từng loại hình phòng khám, đa khoa, chuyên khoa,...',
+    },
+    {
+        id:3,
+        name:'Ổn định, dữ liệu được bảo mật',
+    },
+    {
+        id:4,
+        name:'Tương thích trên nhiều thiết bị: Laptop, máy tính bảng, máy vi tính,...',
+    },
+]

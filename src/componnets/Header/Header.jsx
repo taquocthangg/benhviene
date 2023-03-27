@@ -4,7 +4,8 @@ import { Link } from "react-router-dom"
 import { useLocation } from "react-router-dom";
 import { FiSmartphone } from 'react-icons/fi';
 import { BiLogIn } from 'react-icons/bi';
-import { AiOutlineAlignRight } from "react-icons/ai"
+import { AiFillHome } from "react-icons/ai"
+import { AiOutlineInfoCircle } from "react-icons/ai"
 import { NavLink } from "react-router-dom";
 
 
@@ -24,14 +25,14 @@ const Header = () => {
           <div  className={click ? "nav-menu active" : "nav-menu"}>
               <div className="nav__top">
                 <div className="download">
-                  Tải Ứng Dụng
+                 <FiSmartphone /> Tải Ứng Dụng
                 </div>
                   <div className="login">
                     <NavLink
                       exact
                       to="/login"
                     >
-                      Đăng Nhập
+                    <BiLogIn />  Đăng Nhập
                     </NavLink>
                   </div>
               </div>
@@ -45,7 +46,7 @@ const Header = () => {
                      className="nav-links"
                       onClick={handleClick}
                   >
-                           Trang chủ
+                         <span className='icon__mobile'> <AiFillHome /> Trang chủ</span>  
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -56,7 +57,7 @@ const Header = () => {
                     className="nav-links"
                     onClick={handleClick}
                   >
-                    Giới Thiệu
+                   <i className="icon__mobile"> <AiOutlineInfoCircle/> Giới Thiệu</i> 
                   </NavLink>
                 </li>
                 <li className="nav-item">

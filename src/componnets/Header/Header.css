@@ -4,12 +4,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     position: sticky;
     top: 0;
     z-index: 20000000;
 }
-
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+    border: 1px solid #0352cc;
+    border-radius: 5px;
+    color: #0352cc;
+}
+.download:hover{
+    cursor: pointer;
+}
+.login{
+    background-image: linear-gradient(45deg,#0352cc,#00a4bd);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.login a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    font-family: Avertaa;
+    font-weight: 300 ;
+}
 .nav-container {
     display: flex;
     justify-content: center;
@@ -24,15 +53,22 @@
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
-    flex-grow: 1;
+    padding: 40px;
+    
 }
 .nav__top{
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 10px;
+    gap: 20px;
+    
 }
+
 .nav__bot ul {
     list-style: none;
     display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
 .nav-links {
@@ -43,15 +79,22 @@
 
 
 .nav-item {
+    display: flex;
     line-height: 40px;
     margin-right: 1rem;
+    position: relative;
 }
 
 .nav-item:after {
+    position: absolute;
     content: "";
     display: block;
+    top:0;
+    left:0;
     height: 2.5px;
     width: 0;
+    background-color: #0352cc;
+    
     background: transparent;
     transition: width 0.7s ease, background-color 0.5s ease;
 }
@@ -69,8 +112,13 @@
 .nav-icon {
     display: none;
 }
-
+.icon__mobile{
+    display: none;
+}
 @media screen and (max-width: 960px) {
+    .icon__mobile{
+        display: block;
+    }
     .nav-menu {
         display: flex;
         flex-direction: column;
@@ -82,12 +130,25 @@
         opacity: 1;
         transition: all 0.5s ease;
     }
-
+    .nav-container{
+        justify-content: space-between;
+    }
+    .nav__top{
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        width: 50%;
+    }
+    .nav-logo{
+        padding: 0;
+    }
     .nav__bot ul {
-        display: block;
+       flex-direction: column;
+       justify-content: flex-start;
     }
     .nav-menu{
-        margin-top: 30px;
+        margin-top: 35px;
+       
     }
     .nav-menu.active {
         text-align: center;

@@ -9,7 +9,7 @@
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
+    padding-top: 50px;
     gap: 50px;
 }
 .footer__logo img {
