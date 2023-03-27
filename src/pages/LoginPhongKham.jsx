@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form } from '../componnets/From'
+import { Form } from '../componnets/FromDangKy/FromDangKy'
 
 const LoginPhongKham = () => {
   return (
