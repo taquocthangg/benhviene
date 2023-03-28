@@ -1,7 +1,5 @@
 .content_gt{
     position: relative;
-
-
 }
 .headertttt{
     height: 117px;
@@ -21,9 +19,9 @@
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 50px;
-    font-size:16px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-size:17px;
+    font-family: Averaaa;
+    color:#12263f;
 
 }
 .baner1{
@@ -34,7 +32,7 @@
     font-weight: bold;
 }
 .noidung{
-    list-style-type: circle;/*o chon dau dong*/
+
     margin-top:20px;
 }
 .noidung1{
@@ -48,4 +46,24 @@
 .header_tong{
     height:1000px;
     background-color: #fff;
+   
+}
+@media only screen  and (max-width:46.1875em){
+    .background_qt{
+        display: none;
+    }
+    .content_gt{
+        height: 1440px;
+        
+    }
+    .baner{
+        width:85%;
+        min-height: 400px;
+        top:100px;
+        padding:0;
+        border: none;
+    }
+    .text_qt{
+        display: none;
+    }
 }

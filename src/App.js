@@ -17,8 +17,8 @@ import TinTuc  from "./pages/TinTuc.jsx";
 import { ThacMac } from "./pages/ThacMac.jsx";
 import LienHe from "./pages/LienHe.jsx";
 import Err404 from "./pages/Err404.jsx";
-import LoginPhongKham from "./pages/LoginPhongKham.jsx";
-import DangKy from "./pages/DangKy.jsx";
+import LoginPhongKham from './componnets/FromDangNhap/LoginPhongKham.jsx'
+import DangKy from "./componnets/FromDangKy/DangKy";
 import ScrollToTop from "./componnets/ScrollToTop.js";
 function App() {
   return (

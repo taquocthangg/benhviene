@@ -45,3 +45,15 @@
     color: #307be7;
     cursor: default;
 }
+@media only screen  and (max-width:46.1875em){
+    .text_qt{
+        display: none;
+    }
+    .Buoc{
+        width: 90%;
+        flex-direction: column;
+        
+    }
+    
+
+}

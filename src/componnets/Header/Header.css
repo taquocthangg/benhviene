@@ -144,7 +144,7 @@
     }
     .nav__bot ul {
        flex-direction: column;
-       justify-content: flex-start;
+       gap: 0;
     }
     .nav-menu{
         margin-top: 35px;
@@ -163,7 +163,15 @@
         color: #0352cc;
         border: none;
     }
-
+    .nav-item a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    .nav-item a i{
+        display: flex;
+    }
     .nav-links {
         display: table;
         padding-top: 1.4rem;

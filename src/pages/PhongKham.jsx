@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import Why from '../componnets/Why'
 import '../css/phongkham.css'
+import { FaArrowRight } from "react-icons/fa"
 import { thongke } from '../data'
 const PhongKham = () => {
     return (
@@ -10,10 +11,12 @@ const PhongKham = () => {
                 <div className="wrapper">
                     <div className="info">
                         <h1>Hệ thống quản lý Phòng khám/phòng mạch</h1>
-                        <p>Hiện đại hóa Phòng khám của bạn thành Hệ thống tối ưu với Ứng dụng Bệnh Viện E.</p>
+                        <p>Hiện đại hóa Phòng khám của bạn thành Hệ thống tối ưu với Ứng dụng MedPro Clinic.</p>
                         <div className="btn_phongkham">
                             <div className="btn_dangky">
-                                <Link to='dang-ky'>Đăng Ký</Link>
+                                <Link to='dang-ky'>Đăng Ký <span>
+                                    <FaArrowRight />
+                                </span></Link>
                             </div>
                             <div className="btn_dangnhap">
                                 <Link to='dang-nhap'>Đăng Nhập</Link>

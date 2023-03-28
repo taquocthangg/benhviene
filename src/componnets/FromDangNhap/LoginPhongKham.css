@@ -1,0 +1,8 @@
+.dangnhap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.from__dangnhap{
+    margin: 0 auto;
+}

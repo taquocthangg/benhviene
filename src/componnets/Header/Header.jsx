@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
 import './Header.css'
-import { Link } from "react-router-dom"
 import { useLocation } from "react-router-dom";
 import { FiSmartphone } from 'react-icons/fi';
 import { BiLogIn } from 'react-icons/bi';
 import { AiFillHome } from "react-icons/ai"
 import { AiOutlineInfoCircle } from "react-icons/ai"
+import {FiSettings} from "react-icons/fi"
+import {HiOutlineBookOpen} from "react-icons/hi"
+import {HiOutlineNewspaper} from "react-icons/hi"
+import {BsPatchQuestion} from "react-icons/bs"
+import {MdContactMail} from "react-icons/md"
+import {MdComputer} from "react-icons/md"
 import { NavLink } from "react-router-dom";
 
 
@@ -46,7 +51,7 @@ const Header = () => {
                      className="nav-links"
                       onClick={handleClick}
                   >
-                         <span className='icon__mobile'> <AiFillHome /> Trang chủ</span>  
+                         <i className='icon__mobile'> <AiFillHome /> </i>  Trang chủ
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -57,7 +62,7 @@ const Header = () => {
                     className="nav-links"
                     onClick={handleClick}
                   >
-                   <i className="icon__mobile"> <AiOutlineInfoCircle/> Giới Thiệu</i> 
+                   <i className="icon__mobile"> <AiOutlineInfoCircle/></i>  Giới Thiệu
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -68,7 +73,7 @@ const Header = () => {
                     className="nav-links"
                     onClick={handleClick}
                   >
-                    Quy trình
+                  <i className="icon__mobile"> <FiSettings/> </i>  Quy trình
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -79,7 +84,7 @@ const Header = () => {
                     className="nav-links"
                     onClick={handleClick}
                   >
-                     Hướng Dẫn
+                    <i className="icon__mobile"><HiOutlineBookOpen/></i> Hướng Dẫn
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -90,7 +95,7 @@ const Header = () => {
                     className="nav-links"
                     onClick={handleClick}
                   >
-                     Tin Tức
+                   <i className="icon__mobile"><HiOutlineNewspaper/></i>  Tin Tức
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -101,7 +106,7 @@ const Header = () => {
                     className="nav-links"
                     onClick={handleClick}
                   >
-                     Thắc Mắc
+                   <i className="icon__mobile"><BsPatchQuestion/></i>  Thắc Mắc
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -112,7 +117,7 @@ const Header = () => {
                     className="nav-links"
                     onClick={handleClick}
                   >
-                    Liên Hệ
+                   <i className="icon__mobile"><MdContactMail/></i> Liên Hệ
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -123,7 +128,7 @@ const Header = () => {
                     className="nav-links"
                     onClick={handleClick}
                   >
-                     Phòng Khám
+                   <i className="icon__mobile"><MdComputer/></i>  Phòng Khám
                   </NavLink>
                 </li>
               </ul>

@@ -63,7 +63,7 @@ const Fooder = () => {
          </div>
         </div>
          <div className="footer__bot">
-         © 2023 design by <a href="https://www.facebook.com/tqtntnl2413">Quốc Thắng</a> &&  <a href="https://www.facebook.com/khoai.vutien.9">Tiến Khoái</a> && <a href="https://www.facebook.com/khoai.vutien.9">Lại Tâm</a>
+         © 2023 design by <a href="https://www.facebook.com/tqtntnl2413">Quốc Thắng</a> & <a href="https://www.facebook.com/khoai.vutien.9">Tiến Khoái</a> & <a href="https://www.facebook.com/khoai.vutien.9">Lại Tâm</a>
          </div>
       </footer>
     </main>
