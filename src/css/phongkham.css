@@ -110,3 +110,39 @@
     color: #7b8794;
     text-transform: uppercase;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Res */
+
+@media only screen and (max-width: 768px) {
+    .title{
+        display: none;
+    }
+    .info{
+        width: 100%;
+    }
+    .btn_phongkham{
+        flex-direction: column;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .show{
+       width: 100%;
+       display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .thongke{
+        height: 820px;
+    }
+}

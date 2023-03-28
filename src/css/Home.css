@@ -393,7 +393,7 @@ h3 {
     }
 
     .chondichvu {
-        width: 90px;
+        width: 80px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -401,7 +401,7 @@ h3 {
         justify-content: center;
         font-size: 14px;
         text-align: center;
-        gap: 20px;
+        gap: 0px;
     }
 
     .box {
@@ -409,17 +409,22 @@ h3 {
     }
 
     .box_service {
-        width: 460px;
-        height: 350px;
+        width: 330px;
+        height: 310px;
         text-align: center;
-        margin: 0;
-        margin-top: 30px;
+        margin: 0 auto;
+        margin-top: 50px;
         background-image: linear-gradient(0, rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97));
         border-radius: 20px;
         box-shadow: 0 0 30px #ccc;
         z-index: 1;
     }
-
+    .chondichvu p{
+        width: 90px;
+    }
+    h4{
+        padding: 10px;
+    }
     .backgroud {
         width: 100%;
         background-image: url('https://medpro.vn/static/media/bg_new.9578e7c5.jpg');

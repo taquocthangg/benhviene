@@ -270,6 +270,12 @@ export const thongke = [
         title:'Phòng khám/Phòng mạch',
     },
     {
+        id: 2,
+        icon: require('./img/phongkham/thongke/BacSi.dac5ffcc.png'),
+        content: '50',
+        title:'Bác Sĩ',
+    },
+    {
         id: 3,
         icon: require('./img/phongkham/thongke/LuotDatKham.ee5fdeb7.png'),
         content: '150',
@@ -282,7 +288,7 @@ export const thongke = [
         title:'Lượt Truy Cập',
     },
     {
-        id: 5,
+        id: 6,
         icon: require('./img/phongkham/thongke/LuotDatKham.ee5fdeb7.png'),
         content: '2773',
         title:'Lượt Truy Cập Hiện Tại',
