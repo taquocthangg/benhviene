@@ -9,15 +9,31 @@
     top: 0;
     z-index: 20000000;
 }
+.item_header{
+    margin-right:34px;
+    width: 150px;
+    height: 37px;
+    font-size:14px;
+    color: white;
+}
 .download{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
-    padding: 10px;
+
     border: 1px solid #0352cc;
     border-radius: 5px;
     color: #0352cc;
+}
+.phone{
+    font-size: 20px;
+    margin-top: 2px;
+    padding-right: 5px;
+}
+.header_login{
+    font-size: 25px;
+    margin-top: 5px;
+    padding-right: 5px;
 }
 .download:hover{
     cursor: pointer;
@@ -27,9 +43,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
-    padding: 10px;
     border-radius: 5px;
+    border: 1px solid #0352cc;
 }
 .login a{
     display: flex;
@@ -44,8 +59,8 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80px;
     max-width: 1366px;
+    height: 100%;
 }
 
 .nav-logo { 
@@ -53,24 +68,30 @@
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
-    padding: 40px;
-    
+
+    flex-grow: 1;    
+}
+.nav-menu{
+
+    flex-grow: 4;
 }
 .nav__top{
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 10px;
-    gap: 20px;
+    padding:15px 0;
     
 }
-
+.nav__bot{
+    border-top: 1px solid #ccc;
+}
 .nav__bot ul {
     list-style: none;
     display: flex;
-    align-items: center;
-    gap: 2rem;
+    text-align: center;
 }
-
+.nav__bot ul li{
+    flex-grow: 1;
+}
 .nav-links {
     color: #000;
     text-decoration: none;
@@ -80,9 +101,10 @@
 
 .nav-item {
     display: flex;
-    line-height: 40px;
+    line-height: 47px;
     margin-right: 1rem;
     position: relative;
+    justify-content: center;
 }
 
 .nav-item:after {
@@ -123,7 +145,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        border-top: 1pxsolid #fff;
+        border-top: 1px solid #fff;
         position: absolute;
         top: 80px;
         left: -110%;
@@ -134,10 +156,8 @@
         justify-content: space-between;
     }
     .nav__top{
-        display: flex;
-        margin: 0 auto;
         flex-direction: column;
-        width: 50%;
+        align-items: center;
     }
     .nav-logo{
         padding: 0;
@@ -158,7 +178,10 @@
         transition: all 0.5s ease;
         z-index: 1;
     }
-
+    .item_header{
+        margin:0;
+        margin-bottom:20px ;
+    }
     .nav-item .active {
         color: #0352cc;
         border: none;

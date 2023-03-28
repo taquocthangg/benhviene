@@ -19,7 +19,7 @@ const login = () => {
          </div>
          <div className="form">
             <div className="content">
-                <p class="text_sdt">Vui lòng nhập số điện thoại để tiếp tục</p>
+                <p class="text_sdt text-color">Vui lòng nhập số điện thoại để tiếp tục</p>
                 <div className="SDT">
                 <icon class="icon-sdt"><Link to="/" ><GiEarthAfricaEurope/></Link></icon>
                 <input type="tel" name="txtTelephone" id="txtTelephone"  placeholder="+84" />  
@@ -27,7 +27,7 @@ const login = () => {
                 <button class="CONTINIU">
                     <div className="text_tieptuc">Tiếp tục</div>
                 </button>
-                <p class="text1">Hoặc đăng nhập bằng tài khoản</p>
+                <p class="text1 text-color">Hoặc đăng nhập bằng tài khoản</p>
                 <button class="menu menu1">
                     <img src={Iconzalo} alt="" />
                     <span>ĐĂNG NHẬP VỚI ZALO</span>
@@ -44,7 +44,10 @@ const login = () => {
          </div>
          </div>
          <div className="right">
-            <img src="" alt="" />
+            <div className="cheo">
+                
+            </div>
+            {/* <img src="https://id-v121.medpro.com.vn/static/media/cover-14.cdc08a1d.jpg" alt="" /> */}
          </div>
         </div>
 

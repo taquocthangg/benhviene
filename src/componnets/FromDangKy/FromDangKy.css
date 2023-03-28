@@ -23,6 +23,8 @@
     background-image:linear-gradient(40deg,#ffd86f,#fc6262);
     color: #fff;
     cursor: grab;
+    display: flex;
+    align-items: center;
 }
 .from input,select{
     width: 90%;
@@ -54,4 +56,13 @@ select{
 .back a {
     color: #fc6262;
     font-size: 18px;
+}
+@media only screen  and (max-width:46.1875em){
+    .from{
+        display: block;
+        width: 85%;
+    }
+    .dangky button{
+       margin-left: 0%;
+    }
 }

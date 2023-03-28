@@ -29,15 +29,17 @@ const Header = () => {
           </NavLink>
           <div  className={click ? "nav-menu active" : "nav-menu"}>
               <div className="nav__top">
-                <div className="download">
-                 <FiSmartphone /> Tải Ứng Dụng
+                <div className="download item_header">
+                 <icon className="phone"><FiSmartphone /></icon>
+                  Tải ứng dụng
                 </div>
-                  <div className="login">
+                  <div className="login item_header">
                     <NavLink
                       exact
                       to="/login"
                     >
-                    <BiLogIn />  Đăng Nhập
+                    <icon className="header_login"><BiLogIn /></icon>
+                      Đăng Nhập
                     </NavLink>
                   </div>
               </div>
@@ -54,7 +56,7 @@ const Header = () => {
                          <i className='icon__mobile'> <AiFillHome /> </i>  Trang chủ
                   </NavLink>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item ">
                   <NavLink
                     exact
                     to="/gioi-thieu"
@@ -65,7 +67,7 @@ const Header = () => {
                    <i className="icon__mobile"> <AiOutlineInfoCircle/></i>  Giới Thiệu
                   </NavLink>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item ">
                   <NavLink
                     exact
                     to="quy-trinh"

@@ -1,4 +1,6 @@
-
+footer{
+    background-color: #f8fafd;
+}
 .footer__container {
     width: 100%;
     display: flex;
