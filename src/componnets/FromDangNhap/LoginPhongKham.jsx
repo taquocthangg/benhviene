@@ -21,7 +21,7 @@ const LoginPhongKham = () => {
   });
 
   const onSubmit = (data) => {
-    console.log(data);
+   alert("Dang nhap thanh cong!!")
   };
 
   return (

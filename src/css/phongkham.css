@@ -34,10 +34,11 @@
     font-weight: 700;
     color: #1e56c5;
     font-size: 28px;
+    
 }
 .show{
     margin: 0 auto;
-    width: 1230px;
+    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,6 +55,7 @@
     font-size: 28px;
     font-weight: 600;
     color: #1e56c5;
+    font-family: Averta;
 }
 .decs{
     font-size: 14px;
@@ -68,6 +70,9 @@
 .containerStyle .content{
     margin-top: 50px;
     margin-bottom: 40px;
+}
+.containerStyle .tilte{
+    font-size: 22px;
 }
 .btn_phongkham{
     display: flex;
@@ -110,9 +115,73 @@
     color: #7b8794;
     text-transform: uppercase;
 }
+.containers{
+    margin: 0 auto;
+    max-width: 1266px;
+    display: flex;
+    flex-direction: column;
+}
+.phongkham__noidung{
+    background: url('https://medpro.vn/static/media/BG_CLINIC.2ca22859.svg');
+    padding: 50px;
+}
+.noidung__uudiem{
+    text-align: center;
+}
+.uudiem__container{
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.name__title{
+    padding: 15px;
+}
+.btn__test{
+    margin: 0 auto;
+    cursor: pointer;
+    width: 140px;
+    border-radius: 5px;
+    padding: 10px;
+    background-image:linear-gradient(40deg,#ffd86f,#fc6262);
+    color: #fff;
+    cursor: grab;
+}
 
 
 
+/* Tại Sao  */
+.why__content{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 50px;
+}
+.why__content-title{
+    display: flex;
+    flex-direction: row;
+}
+.content-title_name{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content__name-title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    justify-content: center;
+}
+.content__name{
+display: flex;
+justify-content: flex-end;
+}
+.why__content-title p{
+    font-family: Averta;
+    font-size: 22px;
+    color: #1e56c5;
+}
 
 
 
@@ -138,11 +207,30 @@
         flex-direction: column;
     }
     .show{
+        padding: 0;
        width: 100%;
        display: grid;
         grid-template-columns: 1fr 1fr;
     }
     .thongke{
         height: 820px;
+    }
+    .uudiem__logo img{
+        max-width: 200px;
+    }
+    .why__content-icon img{
+        max-width: 200px;
+    }
+    .why__content{
+        display: block;
+    }
+    .why__content-title{
+        display: block;
+    }
+    .why__content-title{
+        display: block;
+    }
+    .uudiem__container{
+        display: block;
     }
 }

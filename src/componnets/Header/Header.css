@@ -182,7 +182,7 @@
         margin:0;
         margin-bottom:20px ;
     }
-    .nav-item .active {
+    .nav-item .active{
         color: #0352cc;
         border: none;
     }

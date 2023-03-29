@@ -3,6 +3,7 @@ import Why from '../componnets/Why'
 import '../css/phongkham.css'
 import { FaArrowRight } from "react-icons/fa"
 import { thongke } from '../data'
+import Whys from '../componnets/Whys'
 const PhongKham = () => {
     return (
         <main>
@@ -55,6 +56,7 @@ const PhongKham = () => {
                     Điều này giúp chúng tôi tạo ra một hệ sinh thái tiện dụng và an toàn cho Bệnh viện và Phòng khám/Phòng mạch.
                 </p>
             </div>
+            <Whys />
             <Why />
         </main>
     )

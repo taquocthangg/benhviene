@@ -45,7 +45,7 @@ const Header = () => {
               </div>
               <div class="nav__bot">
                 <ul>
-                  <li className="nav-item">
+                  <li className="nav-item" activeClassName="active">
                    <NavLink
                       exact
                       to="/"
