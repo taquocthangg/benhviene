@@ -14,16 +14,16 @@ export const ThacMac = () => {
           </div>
           <div className="contenr_tm">
             <div className="warper">
-              <div class="left3">
+              <div className="left3">
               <ul>
-                  <li class="left_item left_itemc"><h2>Giải đáp nhanh câu hỏi</h2></li>
-                  <li class="left_item left_itemd"><IoMdArrowDropright/><a href="#">Vấn đề chung</a></li>
-                  <li class="left_item left_itemd"><IoMdArrowDropright/><a href="#">Vẫn đề tài khoản</a></li>
-                  <li class="left_item left_itemd"><IoMdArrowDropright/><a href="#">Vẫn đề về quy trình đặt khám</a></li>
-                  <li class="left_item left_itemd"><IoMdArrowDropright/><a href="#">Vấn đề về thanh toán</a></li>
+                  <li className="left_item left_itemc"><h2>Giải đáp nhanh câu hỏi</h2></li>
+                  <li className="left_item left_itemd"><IoMdArrowDropright/><a href="#">Vấn đề chung</a></li>
+                  <li className="left_item left_itemd"><IoMdArrowDropright/><a href="#">Vẫn đề tài khoản</a></li>
+                  <li className="left_item left_itemd"><IoMdArrowDropright/><a href="#">Vẫn đề về quy trình đặt khám</a></li>
+                  <li className="left_item left_itemd"><IoMdArrowDropright/><a href="#">Vấn đề về thanh toán</a></li>
                 </ul>
               </div>
-              <div class="right3">
+              <div className="right3">
                 <div className="item_right">
                   <p><IoMdArrowDropright/> Đối tượng bệnh nhân nào có thể sử dụng phần mềm để đăng ký khám bệnh?</p>
                 </div>

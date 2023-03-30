@@ -152,4 +152,51 @@ max-height: 170px;
 .page_item1{
     background-color: rgb(0, 191, 255);
 }
+@media only screen  and (max-width:46.1875em){
+    .container_tt{
+        height: 4540px;
+    }
+    .text_tt{
+        font-size: 19px;
+    }
+    .content_sukien{
+        flex-direction: column;
+        width: 100%;
+    }
+    .left{
+        height: 0;
+    }
+    .sukien{
+        justify-content: flex-start;
+    }
+    .sukien2{
+        width: 100%;
+    }
+    .left2{
+        padding:0;
+    }
+    .right2{
+        padding:0;
+
+    }
+    .contenr_sukien{
+        width: 0;
+        display: none;
+    }
+    .sukien_text{
+        max-height:240px;
+        width:100%;
+        padding: 10px 0;
+    }
+    .sukien2{
+        margin-top: 20px;
+        padding:0 15px;
+    }
+    .sukien_img{
+            height: 250px;
+            width:100%;
+            padding:0;
+    }
+    
+}
 

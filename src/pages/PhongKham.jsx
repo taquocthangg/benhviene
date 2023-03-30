@@ -1,3 +1,10 @@
+/*
+========================= Trang Chủ =========================
+=                           Author                          =
+=                         Quốc Thắng                        =
+=============================================================
+*/
+
 import { Link } from 'react-router-dom'
 import Why from '../componnets/Why'
 import '../css/phongkham.css'
@@ -36,7 +43,7 @@ const PhongKham = () => {
                 <div className="show">
                     {thongke.map((thongke) => {
                         return (
-                            <div className="thongso">
+                            <div className="thongso" key={thongke.id}>
                                 <img src={thongke.icon} alt="" />
                                 <p className='content'>{thongke.content}</p>
                                 <p className='decs'>{thongke.title}</p>

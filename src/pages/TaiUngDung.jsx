@@ -1,5 +1,12 @@
+/*
+========================= Trang Chủ =========================
+=                           Author                          =
+=                         Quốc Thắng                        =
+=============================================================
+*/
+
 import React from 'react'
-import { logo, taiungdung } from '../data'
+import { logo, taiungdung, taiungdung2 } from '../data'
 
 export const TaiUngDung = () => {
   return (
@@ -15,7 +22,7 @@ export const TaiUngDung = () => {
               <div className="downtop_bot_contents">
                 {logo.map((logo)=> {
                   return(
-                    <div className="downtop_bot_content">
+                    <div className="downtop_bot_content" key={logo.id}>
                         <img src={logo.img} alt="" />
                     </div>
                   )
@@ -40,7 +47,7 @@ export const TaiUngDung = () => {
             <img src="https://resource.medpro.com.vn/static/images/medpro/web/slide.png?t=42565.989343452224" alt="" />
           </div>
           <div className="downbot_content">
-          {taiungdung.map((taiungdung)=>{
+          {taiungdung2.map((taiungdung)=>{
               return(
                 <div className="downbot_iconr" key={taiungdung.id}>
                   <img src={taiungdung.icon} alt="" />

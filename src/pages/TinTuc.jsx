@@ -14,11 +14,11 @@ const TinTuc = () => {
                         <div className="left2">
                             <div className="left2_img">
                                 <img src="https://cms.medpro.com.vn/uploads/1678942071130_760084959d.png" alt="" />
-                            </div>
                             <div className="text_tt">
                                 <h1 class="tieude">TIÊM VACXIN TRƯỚC KHI SINH: NHỮNG MŨI TIÊM NÀO CẦN THIẾT CHO PHỤ NỮ?</h1>
                                 <p class="tacgia text_ttt">KHOÁI ĐẸP TRAI</p>
                                 <p class="noidung_tt text_ttt">Mang thai là thời điểm quan trọng, khi đó hệ thống miễn dịch của cơ thể hoạt động kém hơn so với bình thường. Vì vậy, nguy cơ nhiễm bệnh cao hơn, đặc biệt là nhiều bệnh thông thường có thể gây ra các biến chứng nghiêm trọng và ảnh hưởng đến sức khỏe của cả mẹ và bé yêu. Vì thế,..., Medpro khuyên bạn nên tiêm đầy đủ các loại vắc xin trước khi mang thai để bảo vệ sức khỏe của mình và con yêu.</p>
+                            </div>
                             </div>
                         </div>
                         <div className="right2">

@@ -1,3 +1,10 @@
+/*
+========================= Trang Chủ =========================
+=                           Author                          =
+=                         Quốc Thắng                        =
+=============================================================
+*/
+
 import { Link } from "react-router-dom"
 import './Footer.css'
 import { useLocation } from "react-router-dom";

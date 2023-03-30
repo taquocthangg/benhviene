@@ -17,7 +17,7 @@ const Why = () => {
           <div className="uudiem__name">
             {uudiem.map((uudiem) => {
               return (
-                  <div className="name__title">
+                  <div className="name__title" key={uudiem.id}>
                     <p>
                       <VscCheckAll />  {uudiem.name}
                     </p>

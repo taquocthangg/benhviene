@@ -1,3 +1,4 @@
+// Dữ liệu tái thiết lập
 export const banner =[
     {
         id:1,
@@ -161,8 +162,31 @@ export const taiungdung = [
         icon: require('./img/tai ung dung/result.69e5db6a.png'),
         chucnang: 'KẾT QUẢ CẬN LÂM SÀNG',
         chucnang1: 'Kết quả Cận Lâm Sàng sẽ được cập nhật',
+        chucnang2: 'trực tiếp trên phần mềm',
+    },
+]
+
+export const taiungdung2 = [
+    {
+        id: 1,
+        icon: require('./img/tai ung dung/payment.7e794b60.png'),
+        chucnang: 'THANH TOÁN VIỆN PHÍ',
+        chucnang1: 'Đăng ký khám bệnh theo ngày',
         chucnang2: 'Đăng ký khám bệnh theo bác sĩ',
-        chucnang3: 'trực tiếp trên phần mềm',
+        chucnang3: 'Tái khám theo lịch hẹn',
+    },
+    {
+        id: 2,
+        icon: require('./img/tai ung dung/new.05df77b6.png'),
+        chucnang: 'TIN TỨC TỪ CÁC BỆNH VIỆN',
+        chucnang1: 'Tin tức về sức khỏe, cập nhật kiến thức',
+        chucnang2: 'chăm sóc sức khỏe từ các chuyên gia',
+    },
+    {
+        id: 3,
+        icon: require('./img/tai ung dung/hoadon.22ae9f56.png'),
+        chucnang: 'HOÁ ĐƠN ĐIỆN TỬ',
+        chucnang1: 'Tra cứu hóa đơn điện tử chính xác và nhanh chóng',
     },
 ]
 
@@ -270,19 +294,19 @@ export const thongke = [
         title:'Phòng khám/Phòng mạch',
     },
     {
-        id: 2,
+        id: 3,
         icon: require('./img/phongkham/thongke/BacSi.dac5ffcc.png'),
         content: '50',
         title:'Bác Sĩ',
     },
     {
-        id: 3,
+        id: 4,
         icon: require('./img/phongkham/thongke/LuotDatKham.ee5fdeb7.png'),
         content: '150',
         title:'Bác Sĩ',
     },
     {
-        id: 4,
+        id: 5,
         icon: require('./img/phongkham/thongke/LuotTruyCap.53245e54.png'),
         content: '3713',
         title:'Lượt Truy Cập',

@@ -1,14 +1,22 @@
-import { Link } from "react-router-dom"
-import '../css/main.css'
+/*
+========================= Trang Chủ =========================
+=                           Author                          =
+=                         Quốc Thắng                        =
+=============================================================
+*/
+
+import { Link } from "react-router-dom" // Thêm thẻ link
+// Link css cho trang chủ
+import '../css/main.css' 
 import '../css/Home.css'
+// Thêm thư viện slick slider từ reace
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+// Thêm dữ liệu từ file data
 import { banner, CHONDICHVU, hethongbenhvien, hotro, quytrinh, tintuc } from '../data'; //Thêm dữ liệu
 import { TaiUngDung } from "./TaiUngDung";
 const Home = () => {
-
 
   // Thiết lập silder home page
   const settings = {
@@ -82,9 +90,8 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Back group phần giới thiệu */}
+      {/* Phần giới thiệu */}
       <div className="backgroud">
-        {/* <img className='' src="https://medpro.vn/static/media/bg_new.9578e7c5.jpg" alt="" /> */}
           <div className="text">
             <div className="text_gioithieu">
               <p className='gioithieu'>
@@ -99,11 +106,8 @@ const Home = () => {
           </div>
       </div>
 
-
       {/* Wrapper */}
       <div className="wrappers">
-
-
 
         {/* Giới thiệu về quy trình */}
         <div className="home_gioithieu">
@@ -128,7 +132,7 @@ const Home = () => {
         </div>
 
 
-        {/* Nội dung triển khai */}
+        {/* Nội dung triển khai trên pc*/}
         <div className="home_trienkhais">
           <div className="home_trienkhai">
             <p className="home_trienkhai_content">HỆ THỐNG BỆNH VIỆN TRIỂN KHAI</p>
@@ -137,7 +141,7 @@ const Home = () => {
               <Slider {...hethongsldesk}>
                 {hethongbenhvien.map((hethongbenhvien) => {
                   return (
-                    <div className="home_trienkhai-sl">
+                    <div className="home_trienkhai-sl" key={hethongbenhvien.id}>
                       <img src={hethongbenhvien.img} alt="" />
                       <p className="tenbenhvien">{hethongbenhvien.name}</p>
                     </div>
@@ -146,6 +150,8 @@ const Home = () => {
               </Slider>
             </div>
         </div>
+        {/* Nội dung triển khai trên mobile*/}
+
         <div className="trienkhaimobile">
           <div className="home_trienkhai">
             <h1>HỆ THỐNG BỆNH VIỆN TRIỂN KHAI</h1>
@@ -154,7 +160,7 @@ const Home = () => {
               <Slider {...trienkhaimobile}>
                 {hethongbenhvien.map((hethongbenhvien) => {
                   return (
-                    <div className="home_trienkhai-sl">
+                    <div className="home_trienkhai-sl" key={hethongbenhvien.id}>
                       <img src={hethongbenhvien.img} alt="" />
                       <span>{hethongbenhvien.name}</span>
                     </div>
@@ -166,17 +172,19 @@ const Home = () => {
       </div>
 
 
-      <div className="content_bot">
         {/* Tải Ứng Dụng */}
+      <div className="content_bot">
         <TaiUngDung />
       </div>
+
+      {/* Tin Tức */}
       <div className="tintuc">
         <div className="wrappers">
           <p className="content_tintucsk">Tin Tức && Sự Kiện</p>
           <div className="tintuc_contents">
             {tintuc.map((tintuc) => {
               return (
-                <div className="tintuc_content">
+                <div className="tintuc_content" key={tintuc.id}>
                   <img src={tintuc.img} alt="" />
                   <h5>{tintuc.content}</h5>
                   <p>{tintuc.tilte}</p>
@@ -204,7 +212,7 @@ const Home = () => {
         <div className="hotro_lienhes">
           {hotro.map((hotro) => {
             return (
-              <div className="hotro_lienhe">
+              <div className="hotro_lienhe" key={hotro.id}>
                 <Link href="#"><img src={hotro.icon} alt="" /></Link>
                 <p>{hotro.content}</p>
                 <Link href="#"><p>{hotro.tilte}</p></Link>

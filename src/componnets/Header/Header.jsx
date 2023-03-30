@@ -1,3 +1,11 @@
+/*
+========================= Trang Chủ =========================
+=                           Author                          =
+=                         Quốc Thắng                        =
+=                            And                            =
+=                         Tiến Khoái                        =
+=============================================================
+*/
 import React, { useState } from 'react';
 import './Header.css'
 import { useLocation } from "react-router-dom";
@@ -12,9 +20,7 @@ import {BsPatchQuestion} from "react-icons/bs"
 import {MdContactMail} from "react-icons/md"
 import {MdComputer} from "react-icons/md"
 import { NavLink } from "react-router-dom";
-
-
-const Header = () => {
+const Header = (props) => {
   
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
@@ -24,30 +30,30 @@ const Header = () => {
     <>
       <div className="navbar">
         <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
+          <NavLink  to="/" className="nav-logo">
           <img src="https://resource.medpro.com.vn/static/images/medpro/web/header_logo.svg?t=10787.381354053212" alt="" />
           </NavLink>
           <div  className={click ? "nav-menu active" : "nav-menu"}>
               <div className="nav__top">
                 <div className="download item_header">
-                 <icon className="phone"><FiSmartphone /></icon>
+                 <i className="hone"><FiSmartphone /></i>
                   Tải ứng dụng
                 </div>
                   <div className="login item_header">
                     <NavLink
-                      exact
+                      
                       to="/login"
                     >
-                    <icon className="header_login"><BiLogIn /></icon>
+                    <i className="header_login"><BiLogIn /></i>
                       Đăng Nhập
                     </NavLink>
                   </div>
               </div>
-              <div class="nav__bot">
+              <div className="nav__bot">
                 <ul>
-                  <li className="nav-item" activeClassName="active">
+                  <li className="nav-item">
                    <NavLink
-                      exact
+                      
                       to="/"
                      activeClassName="active"
                      className="nav-links"
@@ -58,7 +64,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item ">
                   <NavLink
-                    exact
+                    
                     to="/gioi-thieu"
                     activeClassName="active"
                     className="nav-links"
@@ -69,7 +75,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item ">
                   <NavLink
-                    exact
+                    
                     to="quy-trinh"
                     activeClassName="active"
                     className="nav-links"
@@ -80,7 +86,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    exact
+                    
                     to="huong-dan"
                     activeClassName="active"
                     className="nav-links"
@@ -91,7 +97,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    exact
+                    
                     to="tin-tuc"
                     activeClassName="active"
                     className="nav-links"
@@ -102,7 +108,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    exact
+                    
                     to="thac-mac"
                     activeClassName="active"
                     className="nav-links"
@@ -113,7 +119,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    exact
+                    
                     to="lien-he"
                     activeClassName="active"
                     className="nav-links"
@@ -124,7 +130,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    exact
+                    
                     to="phong-kham-phong-mach"
                     activeClassName="active"
                     className="nav-links"

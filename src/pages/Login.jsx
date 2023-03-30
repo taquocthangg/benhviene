@@ -19,25 +19,25 @@ const login = () => {
          </div>
          <div className="form">
             <div className="content">
-                <p class="text_sdt text-color">Vui lòng nhập số điện thoại để tiếp tục</p>
+                <p className="text_sdt text-color">Vui lòng nhập số điện thoại để tiếp tục</p>
                 <div className="SDT">
-                <icon class="icon-sdt"><Link to="/" ><GiEarthAfricaEurope/></Link></icon>
+                <icon className="icon-sdt"><Link to="/" ><GiEarthAfricaEurope/></Link></icon>
                 <input type="tel" name="txtTelephone" id="txtTelephone"  placeholder="+84" />  
                 </div>
-                <button class="CONTINIU">
+                <button className="CONTINIU">
                     <div className="text_tieptuc">Tiếp tục</div>
                 </button>
-                <p class="text1 text-color">Hoặc đăng nhập bằng tài khoản</p>
-                <button class="menu menu1">
+                <p className="text1 text-color">Hoặc đăng nhập bằng tài khoản</p>
+                <button className="menu menu1">
                     <img src={Iconzalo} alt="" />
                     <span>ĐĂNG NHẬP VỚI ZALO</span>
                 </button>
-                <button class="menu menu2">
+                <button className="menu menu2">
                     <img src={Icongg} alt="" />
                     <span>ĐĂNG NHẬP VỚI GOOGLE</span>
                 </button>
-                <button class="menu menu3">
-                    <img src={Iconfb} alt="" class="iconfb" />
+                <button className="menu menu3">
+                    <img src={Iconfb} alt="" className="iconfb" />
                     <span>ĐĂNG NHẬP VỚI FACEBOOK</span>
                 </button>
             </div>

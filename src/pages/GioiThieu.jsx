@@ -11,13 +11,13 @@ const GioiThieu = () => {
             <div class="baner">
                 <p>Chào mừng bạn đến với <span class="baner2">phần mềm MEDPRO - Đặt lịch khám bệnh </span>, phần mềm liên kết với các bệnh viện nhằm giúp bệnh nhân có thể:</p>
                 <ul>
-                    <li class="noidung">Đăng ký khám bệnh.</li>
-                    <li class="noidung">Thanh toán tiền khám.</li>
-                    <li class="noidung">Nhận phiếu khám bệnh.</li>
-                    <li class="noidung">Tạo hồ sơ bệnh nhân.</li>
-                    <li class="noidung">Quản lý hồ sơ bệnh nhân.</li>
-                    <li class="noidung">Quản lý phiếu khám bệnh.</li>
-                    <li class="noidung">Quản lý lịch hẹn tái khám, ..v..v..</li>
+                    <li class="noidung"> + Đăng ký khám bệnh.</li>
+                    <li class="noidung"> + Thanh toán tiền khám.</li>
+                    <li class="noidung"> + Nhận phiếu khám bệnh.</li>
+                    <li class="noidung"> + Tạo hồ sơ bệnh nhân.</li>
+                    <li class="noidung"> + Quản lý hồ sơ bệnh nhân.</li>
+                    <li class="noidung"> + Quản lý phiếu khám bệnh.</li>
+                    <li class="noidung"> + Quản lý lịch hẹn tái khám, ..v..v..</li>
                 </ul>
                 <p class="noidung1">Hoàn toàn trực tuyến ở mọi lúc mọi nơi mà không cần phải đến bệnh viện để xếp hàng và chờ đợi.</p>
                 <p class="noidung1">Thông qua phần mềm, chúng tôi luôn hy vọng đã tạo nên một phương thức giúp bệnh nhân có thể tiếp cận với các dịch vụ y tế (nói chung), và dịch vụ khám chữa bệnh (nói riêng) một cách dễ dàng, nhanh chóng và thuận lợi.</p>

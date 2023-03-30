@@ -1,6 +1,5 @@
 .content_gt{
     position: relative;
-    background-color: #fff;
 }
 .headertttt{
     height: 117px;
@@ -16,7 +15,7 @@
     top:275px;
     width:1140px;
     height:630px;
-
+    background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 50px;
@@ -46,27 +45,27 @@
 }
 .header_tong{
     height:1000px;
-
+    background-color: #fff;
    
 }
-@media only screen  and (max-width:46.1875em){
-    .background_qt{
-        display: none;
-    }
-    p{
-        line-height: 30px;
-    }
-    .header_tong{
-        height: 900px;
-    }
-    .baner{
-        width:90%;
-        min-height: 400px;
-        top:0;
-        padding:0;
-        border: none;
-    }
-    .text_qt{
-        display: none;
-    }
+    @media only screen  and (max-width:46.1875em){
+        .background_qt{
+            display: none;
+        }
+        p{
+            line-height: 30px;
+        }
+        .header_tong{
+            height: 900px;
+        }
+        .baner{
+            width:90%;
+            min-height: 400px;
+            top:0;
+            padding:0;
+            border: none;
+        }
+        .text_qt{
+            display: none;
+        }
 }
