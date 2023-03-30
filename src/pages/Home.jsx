@@ -46,10 +46,10 @@ const Home = () => {
     cssEase: "linear"
   };
   const trienkhaimobile = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: 1,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     arrows: false,
     autoplay: true,
     speed: 500,

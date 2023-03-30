@@ -189,7 +189,7 @@ h3 {
 }
 
 .home_trienkhai-sl img {
-    width: 354px;
+    width: 90%;
     height: 212px;
     border-radius: 10px;
 }
@@ -369,7 +369,10 @@ h3 {
     body {
         margin: 0 auto;
     }
-
+    .home_trienkhai_page img{
+        border-radius: 30px;
+        padding: 1.1em;
+    }
     .banners img {
         width: 100%;
     }
@@ -604,6 +607,10 @@ h3 {
     .downtop_bot {
         margin: 0;
     }
-
+    .home__mobile{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 
 }

@@ -66,7 +66,7 @@ const LienHe = () => {
                                             <img className="icon_pageleft1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiwzBzzfMu7ZRUynYKuqV7FVuVUgVX2-Bqsg&usqp=CAU" alt="" />
                                             <div className="text_left1lh">
                                                 <p className="left1lh_mota01">Medpro - Đặt lịch khám bệnh®</p>
-                                                <p className="left1lh_mota02">97 Trần Quang Diệu, phường 14, quận 3, Tp Hồ Chí Minh.</p>
+                                                <p className="left1lh_mota02">235 Hoàng Quốc Việt.</p>
                                             </div>
                                         </li>
                                         <li>
