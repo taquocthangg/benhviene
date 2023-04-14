@@ -99,13 +99,11 @@ color: #307be7;
     src: url("../font/Averta-Regular.d88182eb.woff");
 }
 @media only screen  and (max-width:46.1875em){
-    .container_tm{
-        margin-top:80px;
-    }
     .header_tm{
         display: none;
     }
     .warper{
+        margin-top: 0;
         flex-direction: column;
         width: 90%;
     }

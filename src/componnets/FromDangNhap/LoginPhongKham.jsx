@@ -4,7 +4,6 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { Link } from 'react-router-dom';
 import './LoginPhongKham.css'
-import { TbArrowBackUp } from "react-icons/tb"
 const LoginPhongKham = () => {
   const schema = yup.object().shape({
     taiKhoan: yup.string().required("Vui lòng nhập tên đăng nhập").min(5, 'Vui lòng nhập nhiều hơn 5 kí tự'),
@@ -26,9 +25,6 @@ const LoginPhongKham = () => {
 
   return (
     <div class="dangnhap">
-      <div className="dangnhap-back">
-        <Link to='/'><TbArrowBackUp />Về trang chủ</Link>
-      </div>
       <div className="login__wrapper">
         <div className="wrapper-logo">
           <img src="https://clinic.medpro.vn/javax.faces.resource/medpro-logo.svg.xhtml?ln=images" alt="" />

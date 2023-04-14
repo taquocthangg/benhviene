@@ -3,8 +3,6 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import './FromDangKy.css';
-import {TbArrowBackUp} from "react-icons/tb"
-import { Link } from 'react-router-dom';
 const DangKy = () => {
 
   const schema = yup.object().shape({
@@ -38,9 +36,6 @@ const DangKy = () => {
   };
   return (
     <div class="dangky" >
-      <div className="back">
-        <Link to='/'><TbArrowBackUp/> Về Trang Chủ</Link>
-      </div>
       <div className="name"> VUI LÒNG NHẬP THÔNG TIN</div>
       <form className="from" onSubmit={handleSubmit(onSubmit)}>
         <label htmlFor="">

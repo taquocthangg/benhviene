@@ -1,4 +1,6 @@
-
+p{
+    font-family: Avertaa;
+}
 .banner{
     display: flex;
     width: 100%;

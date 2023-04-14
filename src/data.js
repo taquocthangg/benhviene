@@ -14,35 +14,35 @@ export const banner =[
     },
 ]
 
-export const CHONDICHVU =[
+export const CHOOSE =[
     {
         id: 1,
-        img: require('./img/chondichvu/dkcs.png'),
+        img: require('./img/choose/dkcs.png'),
         name: 'Đặt khám tại cơ sở',
     },
     {
         id: 2,
-        img: require('./img/chondichvu/goi_kham.png'),
+        img: require('./img/choose/goi_kham.png'),
         name: 'Gói Sức Khỏe Toàn Diện',
     },
     {
         id: 3,
-        img: require('./img/chondichvu/xet_nghiem_tai_nha.png'),
+        img: require('./img/choose/xet_nghiem_tai_nha.png'),
         name: 'Xét Nghiệm Tại Nhà',
     },
     {
         id: 4,
-        img: require('./img/chondichvu/vien_phi.png'),
+        img: require('./img/choose/vien_phi.png'),
         name: 'Thanh toán viện phí',
     },
     {
         id: 5,
-        img: require('./img/chondichvu/kham_hau_covid-19.png'),
+        img: require('./img/choose/kham_hau_covid-19.png'),
         name: 'Khám hậu COVID 19',
     },
 ]
 
-export const quytrinh =[
+export const procedure =[
     {
         id : 1,
         img : require('./img/gioithieu/new1.bb081b99.jpg'),
@@ -133,11 +133,11 @@ export const hethongbenhvien = [
 export const logo = [
      {
         id : 1,
-        img: require('./img/chondichvu/ios.3cd24f82.png'),
+        img: require('./img/choose/ios.3cd24f82.png'),
      },
      {
         id : 2,
-        img: require('./img/chondichvu/google-play.4a2a1c43.png'),
+        img: require('./img/choose/google-play.4a2a1c43.png'),
      },
 ]
 
@@ -190,7 +190,7 @@ export const taiungdung2 = [
     },
 ]
 
-export const tintuc = [
+export const news = [
     {
         id: 1,
         img: require('./img/tin tuc/Benh-Nhan-Bi-Hau-Cov-01.jpg'),
@@ -224,7 +224,7 @@ export const tintuc = [
     },
 ]
 
-export const hotro = [
+export const support = [
     {
         id: 1,
         icon: require('./img/ho tro/support.08dda31d.png'),

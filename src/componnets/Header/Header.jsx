@@ -20,12 +20,13 @@ import {BsPatchQuestion} from "react-icons/bs"
 import {MdContactMail} from "react-icons/md"
 import {MdComputer} from "react-icons/md"
 import { NavLink } from "react-router-dom";
+import { Link } from 'react-scroll';
 const Header = (props) => {
   
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const { pathname } = useLocation();
-  if (pathname === "/login" || pathname === "/phong-kham-phong-mach/dang-nhap"|| pathname === "/phong-kham-phong-mach/dang-ky") return null;
+  if (pathname === "/login" || pathname === ""|| pathname === "") return null;
   return (
     <>
       <div className="navbar">
@@ -35,10 +36,12 @@ const Header = (props) => {
           </NavLink>
           <div  className={click ? "nav-menu active" : "nav-menu"}>
               <div className="nav__top">
-                <div className="download item_header">
-                 <i className="hone"><FiSmartphone /></i>
-                  Tải ứng dụng
-                </div>
+                <Link to="download">
+                  <div className="download item_header -bounce">
+                   <i className="hone"><FiSmartphone /></i>
+                    Tải Ứng Dụng
+                  </div>
+                </Link>
                   <div className="login item_header">
                     <NavLink
                       
@@ -131,7 +134,7 @@ const Header = (props) => {
                 <li className="nav-item">
                   <NavLink
                     
-                    to="phong-kham-phong-mach"
+                    to="phong-kham"
                     activeClassName="active"
                     className="nav-links"
                     onClick={handleClick}

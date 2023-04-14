@@ -30,6 +30,7 @@
 }
 .content_qt{
     background-color: #fff;
+    padding-bottom: 60px;
 }
 .kc_text{
     padding-left:17px;
@@ -54,6 +55,8 @@
         flex-direction: column;
         
     }
-    
+    .content_hd ul li:first-child{
+        margin-top: 0;
+    }
 
 }

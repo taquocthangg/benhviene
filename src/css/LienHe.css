@@ -207,7 +207,9 @@
 .chonvande {
     width: 341px;
 }
-
+select .hoten{
+    margin: 0;
+}
 .input_hotro {
     font-weight: 700;
     margin-bottom: 8px;
@@ -301,6 +303,7 @@ sup {
 }
 @media only screen and (max-width: 768px){
     .back__content{
+        margin: 0 auto;
         width: 100%;
         display: flex;
         flex-direction: column;

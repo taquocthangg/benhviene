@@ -30,15 +30,15 @@ function App() {
         <Routes>
           <Route path='/' element = {<Home />} />
           <Route path='login' element = {<Login />} />
-          <Route path='phong-kham-phong-mach/dang-nhap' element = {<LoginPhongKham />} />
-          <Route path='phong-kham-phong-mach/dang-ky' element = {<DangKy />} />
+          <Route path='phong-kham/dang-nhap' element = {<LoginPhongKham />} />
+          <Route path='phong-kham/dang-ky' element = {<DangKy />} />
           <Route path='gioi-thieu' element = {<GioiThieu/>} />
           <Route path='quy-trinh' element = {<QuyTrinh/>} />
           <Route path='huong-dan' element = {<HuongDan/>} />
           <Route path='tin-tuc' element = {<TinTuc/>} />
           <Route path='thac-mac' element = {<ThacMac/>} />
           <Route path='lien-he' element = {<LienHe/>} />
-          <Route path='phong-kham-phong-mach' element = {<PhongKham />} />
+          <Route path='phong-kham' element = {<PhongKham />} />
           <Route path='/*' element = {<Err404 />} />
           <Route/>
         </Routes>

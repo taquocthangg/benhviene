@@ -8,11 +8,10 @@
     height: 1440px;
 }
 .content_hd{
-    padding-top:60px;
     display: flex;
     justify-content: center;
     background-color: #fff;
-
+    padding-bottom: 60px;
 }
 .header_hd{
     height: 200px;
