@@ -71,6 +71,9 @@
 
     flex-grow: 1;    
 }
+.nav__logo-mobile{
+   display: none;
+}
 .nav-menu{
 
     flex-grow: 4;
@@ -138,6 +141,9 @@
     display: none;
 }
 @media screen and (max-width: 960px) {
+    .navbar{
+        background-color: #1da1f2;
+    }
     .icon__mobile{
         display: block;
     }
@@ -161,13 +167,20 @@
     }
     .nav-logo{
         padding: 0;
+        display: none;
+    }
+    .nav__logo-mobile{
+        display: flex;
+        align-self: center;
+        width: 100px;
+        height: 100%;
     }
     .nav__bot ul {
        flex-direction: column;
        gap: 0;
     }
     .nav-menu{
-        margin-top: 35px;
+        margin-top: 40px;
        
     }
     .nav-menu.active {
@@ -206,6 +219,7 @@
         padding-right: 20px;
         font-size: 1.8rem;
         cursor: pointer;
-        color: #0352cc;
+        color: #fff;
+        font-size: 40px;
     }
 }

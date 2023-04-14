@@ -34,6 +34,9 @@ const Header = (props) => {
           <NavLink  to="/" className="nav-logo">
           <img src="https://resource.medpro.com.vn/static/images/medpro/web/header_logo.svg?t=10787.381354053212" alt="" />
           </NavLink>
+          <NavLink  to="/" className="nav__logo-mobile">
+          <img src="https://resource.medpro.com.vn/static/images/medpro/web/logo_header_white.svg?t=6410.947071448074" alt="" />
+          </NavLink>
           <div  className={click ? "nav-menu active" : "nav-menu"}>
               <div className="nav__top">
                 <Link to="download">

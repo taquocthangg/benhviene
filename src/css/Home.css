@@ -928,4 +928,7 @@ h3 {
     .new_content-title{
         max-width: 234px;
     }
+    .home__introduce-back{
+        background-size: cover;
+    }
 }
