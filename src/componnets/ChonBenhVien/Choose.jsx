@@ -1,32 +1,16 @@
-import React, { useEffect, useState} from 'react';
-import axios from 'axios'
-import { choosehopital } from '../data'
+import React, { useState} from 'react';
+import { choosehopital } from '../../data'
 import './Choose.css'
-
-import './api'
 import { Link , useNavigate} from 'react-router-dom';
 
 const Choose = () => {
-  useEffect(() => {
-    const getTinhThanh = async () => {
-      try {
-        const res = await axios.get(
-          'https:vn-public-apis.fpo.vn/provinces/getAll?limit=-1'
-        )
-        console.log(res.data)
-      } catch (error) {
-        console.log(error.message)
-      }
-    }
-    getTinhThanh()
-  })
   const [query, setQuery] = useState("");
   const history = useNavigate()
   return (
 
     <main>
       <div className="format__header">
-            <p onClick={() =>{history(-1)}}>Trang Chủ </p> >  Chọn Bệnh Viện
+            <p onClick={() =>{history(-1)}}>Trang Chủ </p> {'>'}  Chọn Bệnh Viện
       </div>
       <div className="select__hopital">
         <div className="select__hopital-search">

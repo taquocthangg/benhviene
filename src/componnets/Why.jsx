@@ -2,6 +2,7 @@ import React from 'react'
 import { uudiem } from '../data'
 import { VscCheckAll } from "react-icons/vsc";
 import { useNavigate } from 'react-router-dom';
+import laptop  from '../img/phongkham/laptop_banner.5b289611.png'
 
 
 const Why = () => {
@@ -14,7 +15,7 @@ const Why = () => {
         </div>
         <div className="uudiem__container">
           <div className="uudiem__logo">
-            <img src="https://medpro.vn/static/media/Laptop.52d7041f.svg" alt="" />
+            <img src={laptop} alt="" />
           </div>
           <div className="uudiem__name">
             {uudiem.map((uudiem) => {

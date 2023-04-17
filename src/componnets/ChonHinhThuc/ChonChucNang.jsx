@@ -1,13 +1,13 @@
 import React from 'react'
-import { Link, useNavigate } from 'react-router-dom'
-import '../componnets/ChonChucNang.css'
-import { format } from '../data'
+import { useNavigate } from 'react-router-dom'
+import './ChonChucNang.css'
+import { format } from '../../data'
 const ChonChucNang = () => {
     const history = useNavigate()
     return (
         <div className='format'>
             <div className="format__header">
-            <p onClick={() =>{history(-2)}}>Trang Chủ ></p> <p onClick={() =>{history(-1)}}>Chọn Bệnh Viện > </p> Hình Thức Đặt Khám
+            <p onClick={() =>{history(-2)}}>Trang Chủ {'>'}</p> <p onClick={() =>{history(-1)}}>Chọn Bệnh Viện {'>'} </p> Hình Thức Đặt Khám
             </div>
                 <div className="format__choose">
                     <div className="format__choose-name">

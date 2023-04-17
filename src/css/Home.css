@@ -904,11 +904,14 @@ h3 {
     .box{
         float: none;
         margin-top: 0;
-        padding: 10px 0 ;
+        padding: 20px 0 ;
     }
     .box__service{
         margin: 0 auto;
-        width: 380px;
+        max-width: 340px;
+    }
+    .box__service-style{
+        gap: 10px;
     }
     .home__introduce-text{
         flex-direction: column;
@@ -962,7 +965,14 @@ h3 {
     }
     .news_content{
         display: flex;
-        gap: 20px;
+        gap: 18px;
+        padding: 20px;
+    }
+    .new_content-title p{
+        font-size: 0.25em;
+    }
+    .new_content-title h5{
+        font-size: 0.75em;
     }
     .new_content-title{
         max-width: 190px;
@@ -975,6 +985,16 @@ h3 {
         grid-template-columns: 1fr 1fr;
     }
     .support_lienhe{
-        width: 175px;
+        width: 150px;
+        height: 200px;
+    }
+    .function_content-app img{
+        width: 230px;
+    }
+    .nav__top{
+        padding: 0 !important;
+    }
+    .nav-links{
+        padding-top: 0.3rem !important;
     }
 }

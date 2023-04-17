@@ -9,7 +9,7 @@ import { Link } from "react-router-dom"
 import './Footer.css'
 import { useLocation } from "react-router-dom";
 import { footer, } from "../../data";
-
+import logo from '../../img/logo/footer_logo.svg'
 const Fooder = () => {
   const { pathname } = useLocation();
   console.log(pathname);
@@ -20,17 +20,17 @@ const Fooder = () => {
         <div className="footer__container">
          <div className="footer__container-wrapper">
           <div className="footer__logo">
-            <img src="https://resource.medpro.com.vn/static/images/medpro/web/footer_logo.svg?t=96194.50999701483" alt="" />
+            <img src={logo} alt="" />
           </div>
           <div className="footer__contents">
             <p className="footer__contents-content">
             MEDPRO - ĐẶT LỊCH KHÁM BỆNH
             </p>
             <div className="footer__contents-title">
-              Địa Chỉ: 235 Hoàng Quốc Vịt - Hà N
+              Địa Chỉ: 235 Hoàng Quốc Việt - Hà Nội
             </div>
             <div className="footer__contents-title">
-             Email: bvetuvanonline@gmail.com
+             Email: medpro@gmail.com
             </div>
             <div className="footer__contents-title">
               Điện Thoại: 0963765795

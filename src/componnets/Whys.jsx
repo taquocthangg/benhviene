@@ -1,11 +1,15 @@
 import React from 'react'
+import anh1 from "../img/phongkham/why/QLKH.8fea420f.png"
+import anh2 from "../img/phongkham/why/TVKB.be40038e.png"
+import anh3 from "../img/phongkham/why/BCTK.293a43c5.png"
+import anh4 from "../img/phongkham/why/QLKD.a35b656e.png"
 
 const Whys = () => {
   return (
     <div className="why__container">
         <div className="why__content">
             <div className="why__content-icon">
-                <img src="https://medpro.vn/static/media/QLKH.8fea420f.svg" alt="" />
+                <img src={anh1} alt="" />
             </div>
             <div className="why__content-title">
                 <div className="content-title_name">
@@ -19,14 +23,14 @@ const Whys = () => {
                     </div>
                 </div>
             </div>
-            <div className="why__content-icon">
-                <img src="https://medpro.vn/static/media/TVKB.be40038e.svg" alt="" />
+            <div className="why__content-icon why__top">
+            <img src={anh2} alt="" />
             </div>
         </div>
 
         <div className="why__content">
-            <div className="why__content-icon">
-                <img src="https://medpro.vn/static/media/BCTK.293a43c5.svg" alt="" />
+            <div className="why__content-icon  ">
+            <img src={anh3} alt="" />
             </div>
             <div className="why__content-title">
                 <div className="content-title_name">
@@ -40,8 +44,8 @@ const Whys = () => {
                     </div>
                 </div>
             </div>
-            <div className="why__content-icon">
-                <img src="https://medpro.vn/static/media/QLKD.a35b656e.svg" alt="" />
+            <div className="why__content-icon why__top">
+            <img src={anh4} alt="" />
             </div>
         </div>
             </div>

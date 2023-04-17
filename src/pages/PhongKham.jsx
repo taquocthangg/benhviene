@@ -11,6 +11,7 @@ import '../css/phongkham.css'
 import { FaArrowRight } from "react-icons/fa"
 import { thongke } from '../data'
 import Whys from '../componnets/Whys'
+import laptop  from '../img/phongkham/laptop_banner.5b289611.png'
 const PhongKham = () => {
     let history = useNavigate()
     return (
@@ -35,7 +36,7 @@ const PhongKham = () => {
                         </div>
                     </div>
                     <div className="title">
-                        <img src="https://medpro.vn/static/media/laptop_banner.5b289611.svg" alt="" />
+                        <img src={laptop} alt="" />
                     </div>
                 </div>
             </div>
@@ -70,9 +71,9 @@ const PhongKham = () => {
                     </p>
                 </div>
             </div>
-            <div className="main">
+
                 <Whys />
-            </div>
+
                 <Why />
         </main>
     )

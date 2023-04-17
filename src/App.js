@@ -20,9 +20,8 @@ import Err404 from "./pages/Err404.jsx";
 import LoginPhongKham from './componnets/FromDangNhap/LoginPhongKham.jsx'
 import DangKy from "./componnets/FromDangKy/DangKy";
 import ScrollToTop from "./componnets/ScrollToTop.js";
-import Choose from "./componnets/Choose.jsx";
-import ChonChucNang from "./componnets/ChonChucNang.jsx";
-import { DownLoad } from "./pages/DownLoad.jsx";
+import Choose from "./componnets/ChonBenhVien/Choose.jsx";
+import ChonChucNang from "./componnets/ChonHinhThuc/ChonChucNang.jsx";
 function App() {
   return (
 
