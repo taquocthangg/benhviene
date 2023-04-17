@@ -11,10 +11,11 @@ import { taiungdung, taiungdung2 } from '../data'
 import chplay from '../img/choose/google-play.4a2a1c43.png'
 import ios from '../img/choose/ios.3cd24f82.png'
 import "../css/Download.css"
+import { useRef } from 'react'
 
 export const DownLoad = () => {
   return (
-    <div>
+    <div >
       <div className="download__app-back">
         <div className="main">
           <div id="download" className="download__app">

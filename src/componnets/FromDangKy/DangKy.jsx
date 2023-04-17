@@ -3,6 +3,10 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import './FromDangKy.css';
+import { TbArrowBackUp } from "react-icons/tb"
+import { Link, useNavigate } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const DangKy = () => {
 
   const schema = yup.object().shape({
@@ -22,7 +26,8 @@ const DangKy = () => {
       .oneOf([yup.ref("password"), null], "Mật khẩu không khớp")
       .required("Nhập vào đây cmm"),
   });
-
+  const notify = () => toast.success('🦄 Đăng ký thành công !!!', {
+  });;
   const {
     register,
     handleSubmit,
@@ -32,10 +37,16 @@ const DangKy = () => {
   });
 
   const onSubmit = (data) => {
-    alert("Đăng ký thành công")
+    notify();
   };
+  const history = useNavigate()
   return (
     <div class="dangky" >
+      <ToastContainer />
+      <div onClick={() => { history(-1) }} className="back">
+        <Link><TbArrowBackUp />Về trang chủ</Link>
+
+      </div>
       <div className="name"> VUI LÒNG NHẬP THÔNG TIN</div>
       <form className="from" onSubmit={handleSubmit(onSubmit)}>
         <label htmlFor="">
@@ -102,10 +113,11 @@ const DangKy = () => {
           <p className="err">{errors.diaChi?.message}</p>
         </label>
         <label htmlFor="">
-           
+
         </label>
-          <button className='dangky' type="submit" >Đăng Ký</button>  
+        <button className='dangky' type="submit" >Đăng Ký</button>
       </form>
+      
     </div>
   )
 }

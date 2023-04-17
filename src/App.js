@@ -20,6 +20,9 @@ import Err404 from "./pages/Err404.jsx";
 import LoginPhongKham from './componnets/FromDangNhap/LoginPhongKham.jsx'
 import DangKy from "./componnets/FromDangKy/DangKy";
 import ScrollToTop from "./componnets/ScrollToTop.js";
+import Choose from "./componnets/Choose.jsx";
+import ChonChucNang from "./componnets/ChonChucNang.jsx";
+import { DownLoad } from "./pages/DownLoad.jsx";
 function App() {
   return (
 
@@ -30,8 +33,8 @@ function App() {
         <Routes>
           <Route path='/' element = {<Home />} />
           <Route path='login' element = {<Login />} />
-          <Route path='phong-kham/dang-nhap' element = {<LoginPhongKham />} />
-          <Route path='phong-kham/dang-ky' element = {<DangKy />} />
+          <Route path='dang-nhap' element = {<LoginPhongKham />} />
+          <Route path='dang-ky' element = {<DangKy />} />
           <Route path='gioi-thieu' element = {<GioiThieu/>} />
           <Route path='quy-trinh' element = {<QuyTrinh/>} />
           <Route path='huong-dan' element = {<HuongDan/>} />
@@ -39,6 +42,8 @@ function App() {
           <Route path='thac-mac' element = {<ThacMac/>} />
           <Route path='lien-he' element = {<LienHe/>} />
           <Route path='phong-kham' element = {<PhongKham />} />
+          <Route path='chon-benh-vien' element = {<Choose />} />
+          <Route path='chon-benh-vien/chon-hinh-thuc' element = {<ChonChucNang />} />
           <Route path='/*' element = {<Err404 />} />
           <Route/>
         </Routes>

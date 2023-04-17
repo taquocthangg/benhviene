@@ -1,9 +1,11 @@
 import React from 'react'
 import { uudiem } from '../data'
 import { VscCheckAll } from "react-icons/vsc";
+import { useNavigate } from 'react-router-dom';
 
 
 const Why = () => {
+  const history = useNavigate()
   return (
     <div className="phongkham__noidung">
       <div className="containers">
@@ -26,9 +28,11 @@ const Why = () => {
             })}
           </div>
         </div>
-        <div className="btn__test">
-          Đăng kí dùng thử
-        </div>
+
+          <div onClick={() => history("/dang-ky")} className="btn__test">
+            Đăng kí dùng thử
+          </div>
+
       </div>
     </div>
   )

@@ -80,8 +80,10 @@ const Home = () => {
                 {CHOOSE.map((choose) => {
                   return (
                     <div className="choose" key={choose.id}>
-                      <img src={choose.img} alt="" />
-                      <p>{choose.name}</p>
+                      <Link to='chon-benh-vien'>
+                        <img src={choose.img} alt="" />
+                        <p>{choose.name}</p>
+                      </Link>
                     </div>
                   )
                 }
@@ -125,7 +127,7 @@ const Home = () => {
                     <div className="procedure-container_content">
                       <img src={procedure.img} alt="" />
                     </div>
-                    <div className="procedure-container_contents-title grow-shadow">
+                    <div className="procedure-container_contents-title grow-shadow~">
                       <p className='content_text'>{procedure.tilte}</p>
                       <p>{procedure.des}</p>
                     </div>
@@ -170,7 +172,7 @@ const Home = () => {
                 return (
                   <div className="home__deployment-sl" key={hethongbenhvien.id}>
                     <img src={hethongbenhvien.img} alt="" />
-                    <span>{hethongbenhvien.name}</span>
+                    <p>{hethongbenhvien.name}</p>
                   </div>
                 )
               })}

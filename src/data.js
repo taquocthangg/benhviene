@@ -125,7 +125,7 @@ export const hethongbenhvien = [
         name: 'Bệnh Viện Bỏng Quốc Gia'
     },
     {
-        id: 11,
+        id: 13,
         img: require ('./img/benhvien/bv-phu-san-trung-uong.png'),
         name: 'Bệnh Viện Phụ Sản Trung Ương'
     },
@@ -349,5 +349,104 @@ export const uudiem = [
     {
         id:4,
         name:'Tương thích trên nhiều thiết bị: Laptop, máy tính bảng, máy vi tính,...',
+    },
+]
+
+export const format = [
+    {
+        id: 1,
+        icon: require("./img/choose/dkcs.png"),
+        name: "Đặt khám theo chuyên khoa",
+    },
+    {
+        id: 1,
+        icon: require("./img/choose/dkcs.png"),
+        name: "Đặt khám theo chuyên khoa",
+    },
+    {
+        id: 1,
+        icon: require("./img/choose/dkcs.png"),
+        name: "Đặt khám theo chuyên khoa",
+    },
+    {
+        id: 1,
+        icon: require("./img/choose/dkcs.png"),
+        name: "Đặt khám theo chuyên khoa",
+    },
+]
+export const choosehopital = [
+    {
+        id: 1,
+       icon: require ('./img/benhvien/benh vien e.jpg'),
+        name: 'Bệnh Viện E',
+        content:'87 Đ. Trần Cung, Nghĩa Tân, Cầu Giấy, Hà Nội'
+
+        
+    },
+    {
+        id: 2,
+       icon: require ('./img/benhvien/benh-nam-huu-nghi.jpg'),
+        name: 'Bệnh Viện Hữu Nghị',
+        content:' Số 1, Trần Khánh Dư, Phường Bạch Đằng, Quận Hai Bà Trưng, Hà Nội.'
+    },
+    {
+        id: 3,
+       icon: require ('./img/benhvien/benh-vien-bach-mai.jpg'),
+        name: 'Bệnh Viện Bạch Mai',
+        content:'78 Đường Giải Phóng, Phương Mai, Đống Đa, Hà Nội'
+    },
+    {
+        id: 4,
+       icon: require ('./img/benhvien/benh-vien-da-khoa-hong-ngoc.jpg'),
+        name: 'Bệnh Viện Hồng Ngọc',
+        content:'Số 55 Phố Yên Ninh Phường Trúc Bạch quận Ba Đình TP Hà Nội'
+    },
+    {
+        id: 5,
+       icon: require ('./img/benhvien/benh-vien-da-khoa-quoc-te-thu-cuc.jpg'),
+        name: 'Bệnh Viện Thu Cúc',
+        content:'286 Thụy Khuê, Tây Hồ, Hà Nội'
+    },
+    {
+        id: 6,
+       icon: require ('./img/benhvien/benh-vien-da-khoa-quoc-te-vinmec-times-city.jpg'),
+        name: 'Bệnh Viện VINMEC - TIMES - CITY',
+        content:'458 P. Minh Khai, Khu đô thị Times City, Hai Bà Trưng, Hà Nội'
+    },
+    {
+        id: 7,
+       icon: require ('./img/benhvien/benh-vien-da-khoa-tam-anh.jpg'),
+        name: 'Bệnh Viện Tâm Anh',
+        content:'108 P. Hoàng Như Tiếp, Bồ Đề, Long Biên, Hà Nội'
+    },
+    {
+        id: 8,
+       icon: require ('./img/benhvien/benh-vien-dai-hoc-y-ha-noi.jpg'),
+        name: 'Bệnh Viện Đại Học Y Hà Nội',
+        content:'1 P. Tôn Thất Tùng, Kim Liên, Đống Đa, Hà Nội'
+    },
+    {
+        id: 9,
+       icon: require ('./img/benhvien/benh-vien-quan-y-103.jpg'),
+        name: 'Bệnh Viện Quân Y 103',
+        content:'Số 261 đường Phùng Hưng, Phường Phúc La, Hà Đông, Hà Nội'
+    },
+    {
+        id: 10,
+       icon: require ('./img/benhvien/benh-vien-trung-uong-quan-doi-108.jpg'),
+        name: 'Bệnh Viện Trung Ương Quân Đội 108',
+        content:'Số 1, phố Trần Hưng Đạo, phường Bạch Đằng, quận Hai Bà Trưng, thành phố Hà Nội.'
+    },
+    {
+        id: 11,
+       icon: require ('./img/benhvien/benh-vien-viet-phap.jpg'),
+        name: 'Bệnh Viện Việt Pháp',
+        content:'Số 1 Phương Mai, Đống Đa, Hà Nội 100000'
+    },
+    {
+        id: 12,
+       icon: require ('./img/benhvien/vien-bong-quoc-gia-1.webp'),
+        name: 'Bệnh Viện Bỏng Quốc Gia',
+        content:'263 Đ. Phùng Hưng, P. Phúc La, Hà Đông, Hà Nội'
     },
 ]

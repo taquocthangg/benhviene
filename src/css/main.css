@@ -33,7 +33,7 @@ body {
 a {
     font-family: Avertaaa;
     text-decoration: none;
-
+    color: #000;
 }
 
 li {
@@ -43,7 +43,46 @@ li {
 i {
     font-style: normal;
 }
-
+p:hover{
+    cursor:default;
+}
+.description{
+    font-family: Avertaa;
+    font-size: .875rem;
+    color: #828282;
+    font-weight: 400;
+}
+.name_text{
+    font-family: Avertaa;
+    font-size: .875rem;
+    font-weight: 700;
+}
+.box_shawdown{
+    background-color: #fff;
+    width: 320px;
+    height: 75px;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+    margin-bottom: 5px;
+    transition: all .25s ease-in-out;
+    cursor: pointer;
+}
+/* Glow */
+.glow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+  }
+  .glow:hover, .glow:focus, .glow:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
 /* Grow Shadow */
 .grow-shadow {
     vertical-align: middle;

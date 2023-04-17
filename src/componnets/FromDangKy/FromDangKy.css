@@ -26,7 +26,7 @@
     display: flex;
     align-items: center;
 }
-.from input,select{
+.from input{
     width: 90%;
     padding: 10px;
     border: 1px solid #5b5757;

@@ -9,7 +9,7 @@ import React from 'react'
 import '../css/Err400.css'
 const Err404 = () => {
   return (
-    <div className="main">
+
       <div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 355">
           <g id="ocean">
@@ -296,7 +296,7 @@ const Err404 = () => {
           </g>
         </svg>
       </div>
-    </div>
+
   )
 }
 

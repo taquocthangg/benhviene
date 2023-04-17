@@ -8,6 +8,7 @@
 */
 import React, { useState } from 'react';
 import './Header.css'
+import { Link } from 'react-scroll';
 import { useLocation } from "react-router-dom";
 import { FiSmartphone } from 'react-icons/fi';
 import { BiLogIn } from 'react-icons/bi';
@@ -20,13 +21,12 @@ import {BsPatchQuestion} from "react-icons/bs"
 import {MdContactMail} from "react-icons/md"
 import {MdComputer} from "react-icons/md"
 import { NavLink } from "react-router-dom";
-import { Link } from 'react-scroll';
 const Header = (props) => {
   
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const { pathname } = useLocation();
-  if (pathname === "/login" || pathname === ""|| pathname === "") return null;
+  if (pathname === "/login" || pathname === "/phong-kham-phong-mach/dang-nhap"|| pathname === "/phong-kham-phong-mach/dang-ky") return null;
   return (
     <>
       <div className="navbar">
@@ -34,16 +34,13 @@ const Header = (props) => {
           <NavLink  to="/" className="nav-logo">
           <img src="https://resource.medpro.com.vn/static/images/medpro/web/header_logo.svg?t=10787.381354053212" alt="" />
           </NavLink>
-          <NavLink  to="/" className="nav__logo-mobile">
-          <img src="https://resource.medpro.com.vn/static/images/medpro/web/logo_header_white.svg?t=6410.947071448074" alt="" />
-          </NavLink>
           <div  className={click ? "nav-menu active" : "nav-menu"}>
               <div className="nav__top">
                 <Link to="download">
-                  <div className="download item_header -bounce">
-                   <i className="hone"><FiSmartphone /></i>
-                    Tải Ứng Dụng
-                  </div>
+                <div className="download item_header hvr-bounce-to-top">
+                 <i className="hone"><FiSmartphone /></i>
+                  Tải ứng dụng
+                </div>
                 </Link>
                   <div className="login item_header">
                     <NavLink
