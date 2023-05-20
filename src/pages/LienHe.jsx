@@ -2,11 +2,16 @@ import '../css/LienHe.css'
 import { FaLongArrowAltRight } from 'react-icons/fa';
 import MapMobile from '../componnets/MapMobile'
 import Map from '../componnets/Map';
+import mess from '../img/icon/icon_chat_2.svg'
+import back from '../img/gioithieu/lien_he_bg.png'
+import iczalo from '../img/icon/zalo_icon.svg'
+import icfb from '../img/icon/facebook_icon.svg'
+import ictime from '../img/icon/time_icon.svg'
 const LienHe = () => {
     return (
         <main>
             <div className="background_lh">
-                <img src="https://medpro.vn/static/media/blur-01.b18ae4e7.jpg" alt="" />
+                <img src={back} alt="" />
             </div>
 
             <div className="back__content">
@@ -25,7 +30,7 @@ const LienHe = () => {
                                     <h2>Hỏi đáp nhanh</h2>
                                     <p>Danh sách các câu hỏi đã được hệ thống hóa, bạn có thể tham khảo nhanh</p>
                                     <div className="icon_lh">
-                                        <img src="https://medpro.vn/static/media/message.a36cfe22.svg" alt="" />
+                                        <img src={mess} alt="" />
                                     </div>
                                     <div className="text_itemlh">
                                         <p>Tham khảo  < FaLongArrowAltRight /></p>
@@ -36,10 +41,10 @@ const LienHe = () => {
                                     <p>Liên hệ trực tiếp với chúng tôi qua các kênh hỗ trợ sau</p>
                                     <div className="icon_lh item_iconlh">
                                         <div className="iconzalo_lh">
-                                            <img src="https://medpro.vn/static/media/zalo.0f80f1db.svg" alt="" srcset="" />
+                                            <img src={iczalo} alt="" srcset="" />
                                         </div>
                                         <div className="icon_lhfb">
-                                            <img src="https://medpro.vn/static/media/facebook.c30b46e6.svg" alt="" srcset="" />
+                                            <img src={icfb} alt="" srcset="" />
                                         </div>
                                     </div>
                                     <div className="sdt_lh"> <p>1900-2115</p></div>
@@ -50,7 +55,7 @@ const LienHe = () => {
                                     <p>7:30 - 16:30</p>
                                     <div className="icon_lh">
                                         <div className="icon_imglh">
-                                            <img src="https://medpro.vn/static/media/time.918f5c7f.svg" alt="" srcset="" />
+                                            <img src={ictime} alt="" srcset="" />
                                             <p>Ngoài giờ hành chính</p>
                                         </div>
                                     </div>

@@ -452,70 +452,87 @@ export const choosehopital = [
 ]
 
 
-export const accordionData = [
+export const accordionData  = [
     {
         id: 1,
-        title: '- Lợi ích khi sử dụng phần mềm đăng ký khám bệnh trực tuyến này là gì?',
-        content: '- Không xếp hàng chờ đợi để lấy số tiếp nhận khám bệnhd Giảm thời gian chờ khám tại bệnh viện.',
-        content1: '- Thanh toán trực tuyến từ xa, không sử dụng tiền mặt Nhận thông tin phiếu khám bệnh điện tử qua phần mềm Chủ động chọn lịch khám ( ngày khám, khung giờ khám, bác sỹ khám )',
-        content2: '- Nhắc lịch tái khám, đặt lịch tái khám tự động Tra cứu kết quả khám chữa bệnh trực tuyến qua phần mềm.',
-        content3: '- Thanh toán viện phí, chi phí khám chữa bệnh trực tuyến, mọi lúc mọi nơi Dễ dàng tiếp cận và nhận các thông báo mới, thông tin từ bệnh viện'
+        title: 'Lợi ích khi sử dụng phần mềm đăng ký khám bệnh trực tuyến này là gì?',
+        content: '+ Không xếp hàng chờ đợi để lấy số tiếp nhận khám bệnhd Giảm thời gian chờ khám tại bệnh viện.',
+        content1: '+ Thanh toán trực tuyến từ xa, không sử dụng tiền mặt Nhận thông tin phiếu khám bệnh điện tử qua phần mềm Chủ động chọn lịch khám ( ngày khám, khung giờ khám, bác sỹ khám )',
+        content2: '+ Nhắc lịch tái khám, đặt lịch tái khám tự động Tra cứu kết quả khám chữa bệnh trực tuyến qua phần mềm.',
+        content3: '+ Thanh toán viện phí, chi phí khám chữa bệnh trực tuyến, mọi lúc mọi nơi Dễ dàng tiếp cận và nhận các thông báo mới, thông tin từ bệnh viện'
     },
     {
         id: 2,
         title: 'Làm sao để sử dụng được phần mềm đăng ký khám bệnh trực tuyến?',
-        content: 'Có thể truy cập và sử dụng phần mềm trên tất cả thiết bị có thể truy cập mạng internet. ( 3G,4G,5G,Wifi, dây mạng…..)  Máy tính bàn, laptop: truy cập website Hầu hết điện thoại thông minh: tải ứng dụng phần mềm tại kho tải Gplay hoặc AppStore Máy tính bảng và các thiết bị khác ……'
+        content: '+ Có thể truy cập và sử dụng phần mềm trên tất cả thiết bị có thể truy cập mạng internet. ( 3G,4G,5G,Wifi, dây mạng…..)', 
+        content1:'+ Máy tính bàn, laptop: truy cập website' ,
+        content2:'+ Hầu hết điện thoại thông minh: tải ứng dụng phần mềm tại kho tải Gplay hoặc AppStore Máy tính bảng và các thiết bị khác '
     },
     {
         id: 3,
         title: 'Đăng ký khám bệnh online có mất phí không?',
-        content: 'Có phí tiện ích, khi sử dụng dịch vụ đăng ký khám bệnh trực tuyến qua phần mềm ( tương tự phí cước viễn thông qua tổng đài )   Hiện tại chỉ mất phí khi đăng ký khám bệnh thành công, ngoài ra việc sử dụng ứng dụng và các tính năng khác là hoàn toàn miễn phí.'
+        content: '+ Có phí tiện ích, khi sử dụng dịch vụ đăng ký khám bệnh trực tuyến qua phần mềm ( tương tự phí cước viễn thông qua tổng đài )  ' ,
+        content1:'+ Hiện tại chỉ mất phí khi đăng ký khám bệnh thành công, ngoài ra việc sử dụng ứng dụng và các tính năng khác là hoàn toàn miễn phí.'
 
     },
     {
         id: 4,
         title: 'Tôi có thể dùng phần mềm để đăng ký và lấy số thứ tự khám cho bệnh nhân khác không?',
-        content: 'Phần mềm khuyến cáo người dân, tự sử dụng phần mềm để đăng ký khám bệnh cho bản thân. Để tự quản lý thông tin, hồ sơ bệnh, lịch sử khám chữa bệnh, kết quả khám chữa bệnh…  Trường hợp nhờ người khác đăng ký qua phần mềm, hoặc chủ động đăng ký giúp người khác ( như thân nhân, họ hàng, ông bà cha mẹ, người thân, bạn bè , đồng nghiệp……) vẫn có thể được, nếu người đó thực sự không có khả năng tiếp cận phần mềm. Nhưng những trường hợp này là trái với quy định của phần mềm và an toàn bảo mật thông tin của ngành y, các vấn đề phát sinh, người đặt khám dùm người khác và người nhờ người khác đặt khám sẽ tự chịu trách nhiệm trước pháp luật.'
+        content: '+ Phần mềm khuyến cáo người dân, tự sử dụng phần mềm để đăng ký khám bệnh cho bản thân.' ,
+        content1:'+ Để tự quản lý thông tin, hồ sơ bệnh, lịch sử khám chữa bệnh, kết quả khám chữa bệnh…',  
+        content2:'+ Trường hợp nhờ người khác đăng ký qua phần mềm, hoặc chủ động đăng ký giúp người khác ( như thân nhân, họ hàng, ông bà cha mẹ, người thân, bạn bè , đồng nghiệp……) vẫn có thể được, nếu người đó thực sự không có khả năng tiếp cận phần mềm.'
 
     },
     {
         id: 5,
         title: 'Phần mềm có hỗ trợ đăng ký khám 24/7 không?',
-        content: 'Phần mềm cho phép bạn thực hiện việc đăng ký khám vào bất kỳ thời điểm nào trong ngày và bất cứ ngày nào trong tuần, đảm bảo bạn có thể sử dụng Phần mềm để đăng ký khám bệnh mọi lúc mọi nơi, mà không cần phải đến trực tiếp bệnh viện để thực hiện.'
+        content: '+ Phần mềm cho phép bạn thực hiện việc đăng ký khám vào bất kỳ thời điểm nào trong ngày và bất cứ ngày nào trong tuần, đảm bảo bạn có thể sử dụng',
+        content1:'+ Phần mềm để đăng ký khám bệnh mọi lúc mọi nơi, mà không cần phải đến trực tiếp bệnh viện để thực hiện.'
     },
     {
         id: 6,
         title: 'Sau khi đăng ký khám thành công tôi nhận được phiếu khám bệnh như thế nào?',
-        content: 'Bạn sẽ nhận được phiếu khám bệnh điện tử trực tiếp trên phần mềm. Mục quản lý “ phiếu khám bệnh”. Đồng thời bạn có thể sử dụng tính năng gửi tin nhắn, để nhận thông tin về phiếu khám bệnh được gửi qua tin nhắn điện thoại SMS. Nếu hồ sơ bệnh của bạn có khai báo thông tin email, hoặc sử dụng email để đăng nhập phần mềm, bạn cũng sẽ nhận được phiếu khám bệnh điện tử gửi qua email.'
+        content: '+ Bạn sẽ nhận được phiếu khám bệnh điện tử trực tiếp trên phần mềm. Mục quản lý “ phiếu khám bệnh”.', 
+        content1:'+ Đồng thời bạn có thể sử dụng tính năng gửi tin nhắn, để nhận thông tin về phiếu khám bệnh được gửi qua tin nhắn điện thoại SMS.',
+        content2: '+ Nếu hồ sơ bệnh của bạn có khai báo thông tin email, hoặc sử dụng email để đăng nhập phần mềm, bạn cũng sẽ nhận được phiếu khám bệnh điện tử gửi qua email.'
     },
     {
         id: 7,
         title: 'Có thể thanh toán trực tuyến chi phí khám chữa bệnh bằng những phương thức nào?',
-        content: 'Thẻ quốc tế Visa , Master ,JCB  Thẻ ATM nội địa/ InternetBanking (thẻ phải được kích hoạt tính năng thanh toán trực tuyến) Ví điện tử MOMO,SMART PAY  Quét QRCode/ Mobile Banking Thanh toán đại lý (các cửa hàng tiện lợi) Hỗ trợ thanh toán (chuyển khoản)'
+        content: '+ Thẻ quốc tế Visa , Master ,JCB  Thẻ ATM nội địa/ InternetBanking (thẻ phải được kích hoạt tính năng thanh toán trực tuyến) Ví điện tử MOMO,SMART PAY',
+        content1:'+ Quét QRCode/ Mobile Banking Thanh toán đại lý (các cửa hàng tiện lợi) Hỗ trợ thanh toán (chuyển khoản)'
     },
     {
         id: 8,
         title: 'Làm sao tôi biết được là đã thanh toán thành công?',
-        content: 'Khi thanh toán thành công, tiền khám chữa bệnh sẽ được trừ thành công trên  tài khoản thanh toán của bạn qua phương thức thanh toán bạn đã chọn.   Đồng thời sẽ có thông tin xác nhận giao dịch thành công, biên lai thanh toán, mã giao dịch, mã thanh toán cho giao dịch thành công. Hệ thống cũng sẽ cấp ngay phiếu khám bệnh điện tử khi bạn đặt khám thành công.'
+        content: '+ Khi thanh toán thành công, tiền khám chữa bệnh sẽ được trừ thành công trên  tài khoản thanh toán của bạn qua phương thức thanh toán bạn đã chọn.',
+        content1:'+ Đồng thời sẽ có thông tin xác nhận giao dịch thành công, biên lai thanh toán, mã giao dịch, mã thanh toán cho giao dịch thành công. Hệ thống cũng sẽ cấp ngay phiếu khám bệnh điện tử khi bạn đặt khám thành công.'
     },
     {
         id: 9,
         title: 'Tôi có thể đặt khám cho người nhà tôi được không?',
-        content: 'Quý khách có thể tạo tối đa 10 hồ sơ bệnh nhân. Quý khách đặt khám cho bệnh nhân nào thì chọn hồ sơ bệnh nhân đó. Phần mềm và bệnh viện khuyến cáo, trừ trường hợp bất khả kháng, không nên đặt dùm cho người khác vì quy định an toàn bảo mật thông tin sức khỏe mỗi người. Mọi vấn đề phát sinh từ việc đặt khám cho người khác, cá nhân người đặt sẽ chịu hoàn toàn trách nhiệm trước pháp luật.'
+        content: '+ Quý khách có thể tạo tối đa 10 hồ sơ bệnh nhân. ',
+        content1:'+ Quý khách đặt khám cho bệnh nhân nào thì chọn hồ sơ bệnh nhân đó.',
+        content2:'+ Phần mềm và bệnh viện khuyến cáo, trừ trường hợp bất khả kháng, không nên đặt dùm cho người khác vì quy định an toàn bảo mật thông tin sức khỏe mỗi người.',
+        content3:'+ Mọi vấn đề phát sinh từ việc đặt khám cho người khác, cá nhân người đặt sẽ chịu hoàn toàn trách nhiệm trước pháp luật.'
     },
     {
         id: 10,
         title: 'Đối tượng bệnh nhân nào có thể sử dụng qua phần mềm?',
-        content: 'Tất cả người bệnh đều có thể sử dụng phần mềm để đăng ký khám bệnh trực tuyến,nếu đủ điều kiện tiếp cận và sử dụng phần mềm. Phần mềm phù hợp cho những người bệnh có kế hoạch khám chữa bệnh chủ động, hoặc tình trạng bệnh KHÔNG quá khẩn cấp. Trong trường hợp CẤP CỨU, người nhà nên đưa người bệnh đến cơ sở y tế gần nhất hoặc gọi số cấp cứu 115 để được hỗ trợ.'
+        content: '+ Tất cả người bệnh đều có thể sử dụng phần mềm để đăng ký khám bệnh trực tuyến,nếu đủ điều chu ca mo và sử dụng phần mềm.',
+        content1:'+ Phần mềm phù hợp cho những người bệnh có kế hoạch khám chữa bệnh chủ động, hoặc tình trạng bệnh KHÔNG quá khẩn cấp.',
+        content2:'+ Trong trường hợp CẤP CỨU, người nhà nên đưa người bệnh đến cơ sở y tế gần nhất hoặc gọi số cấp cứu 115 để được hỗ trợ.'
     },
     {
         id: 11,
         title: 'Sau khi đã đăng ký khám thành công qua phần mềm, có thể hủy phiếu khám không?',
-        content: 'Bạn có thể chủ động hủy phiếu khám đã đặt thành công, nếu kế hoạch khám chữa bệnh cá nhân có thay đổi.  Hoặc trong 1 số trường hợp, bệnh viện có quyền từ chối phiếu khám nếu có sự sai lệch thông tin bệnh nhân, sai thông tin phiếu khám, hoặc có vấn đề bất khả kháng phát sinh từ phía bệnh viện. Bạn đều sẽ được hoàn tiền lại nếu chưa thực sự đặt khám và khám thành công (nhưng phải tuân theo quy định của phần mềm và bệnh viện).'
+        content: '+ Bạn có thể chủ động hủy phiếu khám đã đặt thành công, nếu kế hoạch khám chữa bệnh cá nhân có thay đổi.',  
+        content1:'+ Hoặc trong 1 số trường hợp, bệnh viện có quyền từ chối phiếu khám nếu có sự sai lệch thông tin bệnh nhân, sai thông tin phiếu khám, hoặc có vấn đề bất khả kháng phát sinh từ phía bệnh viện. ',
+        content2:'+ Bạn đều sẽ được hoàn tiền lại nếu chưa thực sự đặt khám và khám thành công (nhưng phải tuân theo quy định của phần mềm và bệnh viện).'
     },
     {
         id: 12,
         title: 'Tôi đến bệnh viện trễ hơn so với giờ khám đã đăng ký, vậy tôi có được khám hay không?',
-        content: 'Trường hợp bạn đến trễ so với giờ hẹn trên phiếu khám bệnh, bạn vẫn có thể đến bệnh viện để được thăm khám, nhưng mọi sự tiếp nhận và thời gian khám bệnh sẽ theo sự sắp xếp của bệnh viện, tùy vào tình hình thực tế tại bệnh viện và phòng khám lúc đó.'
+        content: '+ Trường hợp bạn đến trễ so với giờ hẹn trên phiếu khám bệnh, bạn vẫn có thể đến bệnh viện để được thăm khám, nhưng mọi sự tiếp nhận và thời gian khám bệnh sẽ theo sự sắp xếp của bệnh viện, tùy vào tình hình thực tế tại bệnh viện và phòng khám lúc đó.'
     }
 ]

@@ -193,6 +193,9 @@ color:#12263f;
     .icon__mobile{
         display: block;
     }
+    .download{
+        display: none;
+    }
     .nav-menu {
         display: flex;
         flex-direction: column;

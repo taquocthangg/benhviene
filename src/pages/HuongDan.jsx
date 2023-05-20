@@ -1,4 +1,8 @@
 import '../css/HuongDan.css'
+import img1 from '../img/QR code/1 (4).webp'
+import img2 from '../img/QR code/1 (1).webp'
+import img3 from '../img/QR code/1 (2).webp'
+import img4 from '../img/QR code/1 (3).webp'
 const HuongDan = () => {
     return (
         <main>
@@ -20,7 +24,7 @@ const HuongDan = () => {
                                         <ol>Cách 2: Tìm kiếm từ khoá "Medpro" trên App Store (iOS) hoặc Google Play (Android)</ol>
                                         <ol>Cách 3: Quét mã QR:</ol>
                                         <div className="icon_qr">
-                                        <img src="https://bo-api.medpro.com.vn:5000/static/steps/medpro/797cd4f87d264b2da36ceb2c7debf5e7_png.png" alt=""  />
+                                        <img src={img1}alt=""  />
                                         </div>
                                     </ul>
                                 </div>
@@ -46,7 +50,7 @@ const HuongDan = () => {
                                     <li className="login_tt">Chọn đăng ký để hoàn tất tạo tài khoản.</li>
                                 </ul>
                                 <div className="icon_qr">
-                                        <img  className="icon_buoc2" src="https://bo-api.medpro.com.vn:5000/static/steps/medpro/49fdec5f8c48490587fc874e95d438a2_png.png" alt=""  />
+                                        <img  className="icon_buoc2" src={img4} alt=""  />
                                         </div>
                                 </div>
                             </li>
@@ -81,7 +85,7 @@ const HuongDan = () => {
                                     <li className="login_tt">Sau khi thanh toán thành công, bạn sẽ nhận được ngay phiếu khám bệnh điện tử trên ứng dụng (và qua email). Trường hợp đặt khám qua Tổng đài 19002115, vui lòng xem phiếu khám được gửi qua tin nhắn SMS.</li>
                                 </ul>
                                 <div className="icon_qr">
-                                        <img  className="icon_buoc2" src="https://bo-api.medpro.com.vn:5000/static/steps/medpro/92ab937acc344549813b94a17949c98b_png.png" alt=""  />
+                                        <img  className="icon_buoc2" src={img2} alt=""  />
                                         </div>
                                 </div>
                             </li >
@@ -98,7 +102,7 @@ const HuongDan = () => {
                                     <li className="two">Người bệnh quay lại phòng khám ban đầu, sau khi nhận đầy đủ kết quả cận lâm sàng, để được bác sĩ khám, tư vấn và trả kết quả khám (toa thuốc, giấy hẹn khám,...).</li>
                                 </ul>
                                 <div className="icon_qr">
-                                        <img  className="icon_buoc2" src="https://bo-api.medpro.com.vn:5000/static/steps/medpro/37ca7801a0fe41908f8681941c263849_png.png" alt=""  />
+                                        <img  className="icon_buoc2" src={img3} alt=""  />
                                         </div>
                                 </div>
                             </li>
@@ -110,7 +114,7 @@ const HuongDan = () => {
                                 <p className="one">ĐẶT LỊCH TÁI KHÁM</p>
                                 <p className="tow">Sử dụng ứng dụng để đặt khám cho lần hẹn tái khám như BƯỚC 1 và BƯỚC 2.</p>
                                 <div className="icon_qr">
-                                        <img src="https://bo-api.medpro.com.vn:5000/static/steps/medpro/fbb847c67696409683adc0a41a2c11c4_png.png" alt=""  />
+                                        <img src={img1} alt=""  />
                                         </div>
                                 </div>
                             </li>

@@ -39,7 +39,6 @@
     width: 1140px;
     margin: 30px 0;
     display: flex;
-    gap: 50px;
 }
 .leff3{
     height: 200px;
@@ -83,65 +82,31 @@
 color: #307be7;
 }
 
-.item_right{
-    /* display: flex; */
-    align-items: center;
-    width: 825px;
-    /* height: 46px; */
-    cursor: pointer;
-    background: #f8f8f9;
-    box-shadow: unset;
-    border-radius: 4px;
-    font-size: 17px;
-    margin-bottom: 15px;
-
-}
-.icon_right1{
-    display: none;
-}
-.text_right1{
-    padding:0 12px;
-    border-radius: 5px;
-    display: flex;
-    line-height: 46px;
+.title-item{
+    padding-left: 15px;
+    border-top-right-radius:5px ;
+    border-top-left-radius:5px ;
     height: 46px;
-    color:#fff;
-    background-color: #307be7;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    background-color: #e9e9e9;
+    color:#000;
+    position: relative;
+    
 }
-.item_rightTM{
-    border: 1px solid #307be7;
-    border-radius: 5px;
 
-}
-.text_right2{
-    padding:16px;
-    font-family: Avertaa;
-    font-size: 14px;
-
-}
-.text_right2>li{
-    padding:5px 0;
-    font-family:Avertaa;
-    font-size: 14px;
-    height:22px;
-    line-height:30px;
-}
-.text_right2_1{
-    margin-bottom: 14px;
-
-}
-.accordion-title{
-        align-items: center;
-        width: 825px;
-        cursor: pointer;
-        background: #f8f8f9;
-        box-shadow: unset;
-        border-radius: 4px;
-        font-size: 17px;
-        margin-bottom: 15px;
+.right3{
+    margin-bottom: 10px;
 }
 .accordion-content{
-    margin-left: 30px;
+    border: 1px solid #307be7;
+    padding:16px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @font-face {
     font-family: aveta;
@@ -176,7 +141,17 @@ color: #307be7;
         border-bottom: 2px solid #ccc;
     }
     .right3{
-        width: auto;
+        width: auto ;
         padding:0;
+    }
+    .accordion {
+        margin-top:30px;
+    }
+    .title-item{
+        padding:7px 15px;
+        font-size: 16px;
+    }
+    .title-item>svg{
+        display: none;
     }
 }

@@ -43,7 +43,7 @@
 @media screen and (max-width: 960px){
     .format__header{
         background-color: #1da1f2 !important;
-        padding-left: 8% !important;
+        padding-left: 1% !important;
     }
     .select__hopital{
         max-width: 360px;

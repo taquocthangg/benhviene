@@ -151,7 +151,7 @@ const Home = () => {
                 {hethongbenhvien.map((hethongbenhvien) => {
                   return (
                     <div className="home__deployment-sl" key={hethongbenhvien.id}>
-                      <img src={hethongbenhvien.img} alt="" />
+                      <div className="home__deployment-sl_img"><img src={hethongbenhvien.img} alt="" /></div>
                       <p className="home__deployment-name">{hethongbenhvien.name}</p>
                     </div>
                   )

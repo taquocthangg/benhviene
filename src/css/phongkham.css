@@ -38,6 +38,9 @@ p{
     font-size: 28px;
     
 }
+.title img{
+    width: 100%;
+}
 .show{
     margin: 0 auto;
     padding: 30px;
@@ -198,19 +201,38 @@ justify-content: flex-end;
     font-weight: 400;
 }
 .uudiem__logo img{
-    max-width: 400px;
+    width: 400px;
 }
 
 
+.why__content-icon img{
+    width: 100%;
+}
 
 
-
-
+.why__container-mobile{
+    display: none;
+}
 
 
 /* Res */
 
 @media only screen and (max-width: 768px) {
+    .uudiem__logo img{
+        width: 100%;
+    }
+    .thongso{
+            gap:0;
+    }
+    .content{
+        margin-bottom: 20px;
+    }
+    .why__container-mobile{
+        display: block;
+    }
+    .Why__container-pc{
+        display: none;
+    }
     .title{
         display: none;
     }
@@ -228,15 +250,13 @@ justify-content: flex-end;
        width: 100%;
        display: grid;
         grid-template-columns: 1fr 1fr;
+        gap:20px;
     }
     .thongke{
         height: 820px;
     }
-    .uudiem__logo img{
-        max-width: 200px;
-    }
     .why__content-icon img{
-        max-width: 200px;
+        max-width:100%;
     }
     .why__content{
         display: block;
@@ -249,5 +269,37 @@ justify-content: flex-end;
     }
     .uudiem__container{
         display: block;
+
+    }
+    .uudiem__logo {
+        display: flex;
+        justify-content: center;
+       
+    }
+    .containerStyle{
+        padding-top:64px;
+    }
+    .content-title_name{
+        text-align: center;
+        padding-top: 40px;
+    }
+     .tilte{
+       padding:12px;
+    }
+    .why__content-icon img{
+        margin:0 auto;
+    }
+    .content__name{
+        margin-top: 50px;
+    }
+    .content__name-title{
+        text-align: center;
+    }
+    .why__content-icon  {
+        margin:20px 0;
+    }
+    .name__title{
+        font-weight: bold;
+        
     }
 }
