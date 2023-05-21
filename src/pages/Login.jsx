@@ -34,15 +34,15 @@ const Login = () => {
                 <p className="text1 text-color">Hoặc đăng nhập bằng tài khoản</p>
                 <button className="menu menu1">
                     <img src={Iconzalo} alt="" />
-                    <span>ĐĂNG NHẬP VỚI ZALO</span>
+                    <p>ĐĂNG NHẬP VỚI ZALO</p>
                 </button>
                 <button className="menu menu2">
                     <img src={Icongg} alt="" />
-                    <span>ĐĂNG NHẬP VỚI GOOGLE</span>
+                    <p>ĐĂNG NHẬP VỚI GOOGLE</p>
                 </button>
                 <button className="menu menu3">
                     <img src={Iconfb} alt="" className="iconfb" />
-                    <span>ĐĂNG NHẬP VỚI FACEBOOK</span>
+                    <p>ĐĂNG NHẬP VỚI FACEBOOK</p>
                 </button>
             </div>
          </div>
