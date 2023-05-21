@@ -54,6 +54,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     width: 285px;
     font-size: 14px;
+    gap: 5px;
 }
 
 .listGroup img {
