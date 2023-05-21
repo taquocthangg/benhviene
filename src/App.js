@@ -5,6 +5,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import './css/main.css'
 import Login from './pages/Login.jsx';
 import Home from './pages/Home.jsx';
 import Header from './componnets/Header/Header';
@@ -20,6 +21,7 @@ import Err404 from "./pages/Err404.jsx";
 import LoginPhongKham from './componnets/FromDangNhap/LoginPhongKham.jsx'
 import DangKy from "./componnets/FromDangKy/DangKy";
 import ScrollToTop from "./componnets/ScrollToTop.js";
+import BackToTop from "./componnets/BackToTop.js";
 import Choose from "./componnets/ChonBenhVien/Choose.jsx";
 import ChonChucNang from "./componnets/ChonHinhThuc/ChonChucNang.jsx";
 function App() {
@@ -28,6 +30,7 @@ function App() {
     <div className="App">
       <Router>
         <Header />
+        <BackToTop/>
         <ScrollToTop >
         <Routes>
           <Route path='/' element = {<Home />} />

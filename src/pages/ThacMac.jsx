@@ -2,6 +2,7 @@ import '../css/ThacMac.css'
 import { IoMdArrowDropright } from 'react-icons/io';
 import { accordionData } from '../data';
 import Accordion from '../componnets/Accordion';
+import { Link } from 'react-router-dom';
 
 export const ThacMac = () => {
   return (
@@ -21,10 +22,10 @@ export const ThacMac = () => {
               <div className="left3">
               <ul>
                   <li className="left_item left_itemc"><h2>Giải đáp nhanh câu hỏi</h2></li>
-                  <li className="left_item left_itemd"><IoMdArrowDropright/><a href="#">Vấn đề chung</a></li>
-                  <li className="left_item left_itemd"><IoMdArrowDropright/><a href="#">Vẫn đề tài khoản</a></li>
-                  <li className="left_item left_itemd"><IoMdArrowDropright/><a href="#">Vẫn đề về quy trình đặt khám</a></li>
-                  <li className="left_item left_itemd"><IoMdArrowDropright/><a href="#">Vấn đề về thanh toán</a></li>
+                  <li className="left_item left_itemd"><IoMdArrowDropright/><Link href="#">Vấn đề chung</Link></li>
+                  <li className="left_item left_itemd"><IoMdArrowDropright/><Link href="#">Vẫn đề tài khoản</Link></li>
+                  <li className="left_item left_itemd"><IoMdArrowDropright/><Link href="#">Vẫn đề về quy trình đặt khám</Link></li>
+                  <li className="left_item left_itemd"><IoMdArrowDropright/><Link href="#">Vấn đề về thanh toán</Link></li>
                 </ul>
               </div>
               <div className="accordion ">

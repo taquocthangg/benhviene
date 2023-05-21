@@ -13,7 +13,8 @@
 .baner{
     position: absolute;
     top:275px;
-    width:1140px;
+    width:75%;
+    
     height:630px;
     background-color: #fff;
     border: 1px solid #ccc;

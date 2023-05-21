@@ -113,11 +113,9 @@ const DangKy = () => {
           <p className="err">{errors.diaChi?.message}</p>
         </label>
         <label htmlFor="">
-
         </label>
         <button className='dangky' type="submit" >Đăng Ký</button>
       </form>
-      
     </div>
   )
 }

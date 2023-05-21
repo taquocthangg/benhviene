@@ -320,18 +320,6 @@ export const thongke = [
 ]
 
 
-export const pklogin = {
-    input: [
-        {
-            label: 'Tên đăng nhập',
-            name: 'username',
-        },
-        {
-            label: 'Mật khẩu',
-            name: 'passwork',
-        },
-    ]
-}
 
 export const uudiem = [
     {
@@ -360,18 +348,18 @@ export const format = [
     },
     {
         id: 1,
-        icon: require("./img/choose/dkcs.png"),
-        name: "Đặt khám theo chuyên khoa",
+        icon: require("./img/choose/djat_kham_theo_bac_si.png"),
+        name: "Đặt khám theo bác sĩ",
     },
     {
         id: 1,
-        icon: require("./img/choose/dkcs.png"),
-        name: "Đặt khám theo chuyên khoa",
+        icon: require("./img/choose/xet_nghiem_tai_nha.png"),
+        name: "Xét nghiệm tại nhà",
     },
     {
         id: 1,
-        icon: require("./img/choose/dkcs.png"),
-        name: "Đặt khám theo chuyên khoa",
+        icon: require("./img/choose/kham_hau_covid-19.png"),
+        name: "Khám hậu covid",
     },
 ]
 export const choosehopital = [
