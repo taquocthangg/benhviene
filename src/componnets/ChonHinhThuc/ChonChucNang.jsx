@@ -16,7 +16,7 @@ const ChonChucNang = () => {
                         <div onClick={() => {history("/login")}} className="format__choose-from">
                             {format.map((format) => {
                                 return (
-                                    <div className="choose-from_box">
+                                    <div className="choose-from_box bob">
                                         <img src={format.icon} alt="" />
                                         <p>{format.name}</p>
                                     </div>

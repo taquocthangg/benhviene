@@ -19,6 +19,12 @@
     font-family: Avertaaa;
     src: url(../font/Averta-Semibold.58d8ee25.woff);
 }
+.App span{
+   position: fixed;
+   margin-top: 15%;
+   margin-left: 50%;
+   transform: translate(-50%,-50%);
+}
 .top-to-btm{
     position: relative;
   }
@@ -105,7 +111,7 @@ p:hover{
     height: 75px;
     gap: 20px;
     border-radius: 10px;
-    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15) !important;
     margin-bottom: 5px;
     transition: all .25s ease-in-out;
     cursor: pointer;
@@ -243,9 +249,11 @@ p:hover{
         transform: translateY(-8px);
     }
 }
-
+.procedure-container_contents-title:hover p{
+    cursor: pointer;
+}
 .bob {
-    display: inline-block;
+    /* display: inline-block; */
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
@@ -269,4 +277,23 @@ p:hover{
     animation-fill-mode: forwards;
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
+    cursor: pointer;
 }
+.bounce-in {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .bounce-in:hover, .bounce-in:focus, .bounce-in:active {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  

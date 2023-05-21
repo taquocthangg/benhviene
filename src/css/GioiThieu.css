@@ -31,6 +31,12 @@
 li{
     font-family: Avertaa;
 }
+.baner__title{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: -5px;
+}
 .baner1{
     display: flex;
     justify-content: center;

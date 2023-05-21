@@ -9,7 +9,9 @@ const GioiThieu = () => {
                 <div className="header_tong">
         <div class="baner1">
             <div class="baner">
-                <p>Chào mừng bạn đến với <span class="baner2">phần mềm MEDPRO - Đặt lịch khám bệnh </span>, phần mềm liên kết với các bệnh viện nhằm giúp bệnh nhân có thể:</p>
+                <div className="baner__title">
+                Chào mừng bạn đến với phần mềm MEDPRO - Đặt lịch khám bệnh, phần mềm liên kết với các bệnh viện nhằm giúp bệnh nhân có thể:
+                </div>
                 <ul>
                     <li class="noidung"> + Đăng ký khám bệnh.</li>
                     <li class="noidung"> + Thanh toán tiền khám.</li>

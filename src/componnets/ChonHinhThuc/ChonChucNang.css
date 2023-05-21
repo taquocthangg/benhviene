@@ -6,7 +6,9 @@
     height: 82px;
     padding-left: 15%;
 }
-.format__header p{
+.format__header p:hover{
+    color: #12263f;
+    transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
 .format__choose{
@@ -44,6 +46,11 @@
     margin-bottom: 5px;
     transition: all .25s ease-in-out;
     cursor: pointer;
+}
+.choose-from_box:hover p{
+    color: #6495ed;
+    cursor: pointer;
+    font-weight: 700;
 }
 .format__choose-from{
     display: grid;

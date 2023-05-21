@@ -92,7 +92,17 @@ footer {
     line-height: 56px;
     color: #fff;
 }
-
+.footer__contents-title a:hover{
+    color: #6a78d1;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+}
+.footer__contents-title:hover{
+    color: #6a78d1;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
 @media only screen and (max-width: 1024px) {
     .footer__container-wrapper {
         gap: 20px;

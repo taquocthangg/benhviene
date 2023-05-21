@@ -46,7 +46,6 @@
 }
 
 .right3{
-    width: 825px;
     display: flex;
     flex-direction: column;
     padding: 0 30px;
@@ -81,9 +80,11 @@
 .left_itemd>a:hover{
 color: #307be7;
 }
-
+.contenr_tm .warper{
+    padding: 30px;
+}
 .title-item{
-    padding-left: 15px;
+    padding: 0 30px 0 15px;
     border-top-right-radius:5px ;
     border-top-left-radius:5px ;
     height: 46px;

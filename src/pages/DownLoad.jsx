@@ -22,10 +22,10 @@ export const DownLoad = () => {
             </div>
             <div className="download__app-name name">
               <div className="download__app-content">
-                Tải Ứng Dụng <span>MEDPRO</span>
+                Tải Ứng Dụng <p>MEDPRO</p>
               </div>
               <div className="download__app-link">
-                <Link className='bob' to="https://play.google.com/store/apps/details?id=vn.com.medpro&pli=1">
+                <Link className='bounce-in' to="https://play.google.com/store/apps/details?id=vn.com.medpro&pli=1">
                   <img src={chplay} alt="" />
                 </Link>
                 <Link className='bob' to="https://apps.apple.com/us/app/id1481561748">

@@ -79,7 +79,7 @@ const Home = () => {
               <div className="box__service-style">
                 {CHOOSE.map((choose) => {
                   return (
-                    <div className="choose" key={choose.id}>
+                    <div className="choose bob" key={choose.id}>
                       <Link to='chon-benh-vien'>
                         <img src={choose.img} alt="" />
                         <p>{choose.name}</p>
@@ -127,7 +127,7 @@ const Home = () => {
                     <div className="procedure-container_content">
                       <img src={procedure.img} alt="" />
                     </div>
-                    <div className="procedure-container_contents-title grow-shadow~">
+                    <div className="procedure-container_contents-title bob">
                       <p className='content_text'>{procedure.tilte}</p>
                       <p>{procedure.des}</p>
                     </div>
@@ -196,7 +196,7 @@ const Home = () => {
           <div className="news__content">
             {news.map((news) => {
               return (
-                <div className="news_content" key={news.id}>
+                <div className="news_content bob" key={news.id}>
                   <img src={news.img} alt="" />
                   <div className="new_content-title">
                     <h5>{news.content}</h5>

@@ -23,14 +23,14 @@ const PhongKham = () => {
                         <h1>Hệ thống quản lý Phòng khám/phòng mạch</h1>
                         <p>Hiện đại hóa Phòng khám của bạn thành Hệ thống tối ưu với Ứng dụng MedPro Clinic.</p>
                         <div className="btn_phongkham">
-                            <div onClick={() => {history("/dang-ky")}} className="btn_dangky">
+                            <div onClick={() => {history("/dang-ky")}} className="btn_dangky bob">
                                  <Link>
                                      Đăng Ký <span>
                                         <FaArrowRight />
                                                                      </span>
                                  </Link>
                             </div>
-                            <div onClick={() => {history("/dang-nhap")}} className="btn_dangnhap">
+                            <div onClick={() => {history("/dang-nhap")}} className="btn_dangnhap bob">
                                 <Link>Đăng Nhập</Link>
                             </div>
                         </div>

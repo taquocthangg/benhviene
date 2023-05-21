@@ -26,33 +26,33 @@ const Fooder = () => {
             <p className="footer__contents-content">
             MEDPRO - ĐẶT LỊCH KHÁM BỆNH
             </p>
-            <div className="footer__contents-title">
+            <div className="footer__contents-title bob">
               Địa Chỉ: 235 Hoàng Quốc Việt - Hà Nội
             </div>
-            <div className="footer__contents-title">
+            <div className="footer__contents-title bob">
              Email: medpro@gmail.com
             </div>
-            <div className="footer__contents-title">
+            <div className="footer__contents-title bob">
               Điện Thoại: 0963765795
             </div>
           </div>
           <div className="footer__contents">
-            <p className="footer__contents-title">
+            <p className="footer__contents-title bob">
               <Link to="lien-he" >
                 Liên Hệ
               </Link>
             </p>
-            <p className="footer__contents-title">
+            <p className="footer__contents-title bob">
             <Link to="" >
                Điều khoản dịch vụ
               </Link>
             </p>
-            <p className="footer__contents-title">
+            <p className="footer__contents-title bob">
             <Link to="" >
             Chính sách bảo mật
               </Link>
             </p>
-            <p className="footer__contents-title">
+            <p className="footer__contents-title bob">
             <Link to="" >
             Quy định sử dụng
               </Link>
@@ -61,7 +61,7 @@ const Fooder = () => {
           <div className="listGroup">
           {footer.map((footer) => {
             return (
-              <div className="listGroup__icon" key={footer.id}>
+              <div className="listGroup__icon bob" key={footer.id}>
                 <img src={footer.img} alt="" />
               </div>
             )

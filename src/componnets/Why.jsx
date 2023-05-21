@@ -30,7 +30,7 @@ const Why = () => {
           </div>
         </div>
 
-          <div onClick={() => history("/dang-ky")} className="btn__test">
+          <div onClick={() => history("/dang-ky")} className="btn__test bob">
             Đăng kí dùng thử
           </div>
 

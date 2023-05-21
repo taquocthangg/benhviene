@@ -74,6 +74,16 @@
 }
 .choose{
     width: 106px;
+    padding: 8px;
+}
+.choose:hover{
+    cursor: pointer;
+}
+.choose:hover a{
+    color: #0352cc;
+}
+.choose a p{
+    font-weight: 600;
 }
 .choose img{
     margin: 0 auto;
@@ -153,6 +163,7 @@
     justify-content: center;
     margin-top: -20%;
     padding: 10px;
+    width: 216px;
     height: 112px;
     background-color: #fff;
     text-align: center;
@@ -166,8 +177,19 @@
     padding: 50px;
 }
 
-
-
+.download__app-content{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.download__app-content p{
+    background: #0352cc;
+    padding: 2px 18px;
+    font-weight: 700;
+    border-radius: 3px;
+    color: #fff;
+}
 
 .home__deployment-content{
     text-align: center;
@@ -274,13 +296,21 @@
     height: 80px;
 }
   
-
+.procedure_register:hover{
+    color: #0352cc;
+    transition: all 0.3s ease-in-out;
+}
 
 /* Res */
 @media only screen and (max-width: 800px){
-
+    .procedure-container_contents-title{
+        width: 150px;
+    }
 }
 @media only screen and (max-width: 668px){
+    .procedure-container_contents-title{
+        width: 215px;
+    }
     .banner-img img{
         height: 180px;
     }
