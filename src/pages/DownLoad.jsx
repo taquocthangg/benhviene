@@ -28,7 +28,7 @@ export const DownLoad = () => {
                 <Link className='bounce-in' to="https://play.google.com/store/apps/details?id=vn.com.medpro&pli=1">
                   <img src={chplay} alt="" />
                 </Link>
-                <Link className='bob' to="https://apps.apple.com/us/app/id1481561748">
+                <Link className='bounce-in' to="https://apps.apple.com/us/app/id1481561748">
                   <img src={ios} alt="" />
                 </Link>
               </div>

@@ -11,7 +11,7 @@ import '../css/phongkham.css'
 import { FaArrowRight } from "react-icons/fa"
 import { thongke } from '../data'
 import Whys from '../componnets/Whys'
-import laptop  from '../img/phongkham/laptop_banner.5b289611.png'
+import laptop from '../img/phongkham/laptop_banner.5b289611.png'
 const PhongKham = () => {
     let history = useNavigate()
     return (
@@ -23,14 +23,14 @@ const PhongKham = () => {
                         <h1>Hệ thống quản lý Phòng khám/phòng mạch</h1>
                         <p>Hiện đại hóa Phòng khám của bạn thành Hệ thống tối ưu với Ứng dụng MedPro Clinic.</p>
                         <div className="btn_phongkham">
-                            <div onClick={() => {history("/dang-ky")}} className="btn_dangky bob">
-                                 <Link>
-                                     Đăng Ký <span>
+                            <div onClick={() => { history("/dang-ky") }} className="btn_dangky bob">
+                                <Link>
+                                    Đăng Ký <p>
                                         <FaArrowRight />
-                                                                     </span>
-                                 </Link>
+                                    </p>
+                                </Link>
                             </div>
-                            <div onClick={() => {history("/dang-nhap")}} className="btn_dangnhap bob">
+                            <div onClick={() => { history("/dang-nhap") }} className="btn_dangnhap bob">
                                 <Link>Đăng Nhập</Link>
                             </div>
                         </div>
@@ -72,9 +72,9 @@ const PhongKham = () => {
                 </div>
             </div>
 
-                <Whys />
+            <Whys />
 
-                <Why />
+            <Why />
         </main>
     )
 }

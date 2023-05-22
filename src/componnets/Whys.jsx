@@ -15,12 +15,12 @@ const Whys = () => {
                     <div className="why__content-title">
                         <div className="content-title_name">
                             <p>DỊCH VỤ QUẢN LÝ KHÁCH HÀNG</p>
-                            <span>Với ứng dụng MedPro Clinic, bạn sẽ dễ dàng quản lý lịch khám hoặc tái khám của từng người bệnh đến được chia theo từng nguồn.</span>
+                            <p>Với ứng dụng MedPro Clinic, bạn sẽ dễ dàng quản lý lịch khám hoặc tái khám của từng người bệnh đến được chia theo từng nguồn.</p>
                         </div>
                         <div className="content__name">
                             <div className="content__name-title">
                                 <p>DỊCH VỤ QUẢN LÝ KHÁCH HÀNG</p>
-                                <span>Với ứng dụng MedPro Clinic, bạn sẽ dễ dàng quản lý lịch khám hoặc tái khám của từng người bệnh đến được chia theo từng nguồn.</span>
+                                <p>Với ứng dụng MedPro Clinic, bạn sẽ dễ dàng quản lý lịch khám hoặc tái khám của từng người bệnh đến được chia theo từng nguồn.</p>
                             </div>
                         </div>
                     </div>
@@ -35,12 +35,12 @@ const Whys = () => {
                     <div className="why__content-title">
                         <div className="content-title_name">
                             <p>DỊCH VỤ QUẢN LÝ KHÁCH HÀNG</p>
-                            <span>Với ứng dụng MedPro Clinic, bạn sẽ dễ dàng quản lý lịch khám hoặc tái khám của từng người bệnh đến được chia theo từng nguồn.</span>
+                            <p>Với ứng dụng MedPro Clinic, bạn sẽ dễ dàng quản lý lịch khám hoặc tái khám của từng người bệnh đến được chia theo từng nguồn.</p>
                         </div>
                         <div className="content__name">
                             <div className="content__name-title">
                                 <p>DỊCH VỤ QUẢN LÝ KHÁCH HÀNG</p>
-                                <span>Với ứng dụng MedPro Clinic, bạn sẽ dễ dàng quản lý lịch khám hoặc tái khám của từng người bệnh đến được chia theo từng nguồn.</span>
+                                <p>Với ứng dụng MedPro Clinic, bạn sẽ dễ dàng quản lý lịch khám hoặc tái khám của từng người bệnh đến được chia theo từng nguồn.</p>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ const Whys = () => {
                         <div className="why__content-title">
                             <div className="content-title_name">
                                 <p>DỊCH VỤ QUẢN LÝ KHÁCH HÀNG</p>
-                                <span>Với ứng dụng MedPro Clinic, bạn sẽ dễ dàng quản lý lịch khám hoặc tái khám của từng người bệnh đến được chia theo từng nguồn.</span>
+                                <p>Với ứng dụng MedPro Clinic, bạn sẽ dễ dàng quản lý lịch khám hoặc tái khám của từng người bệnh đến được chia theo từng nguồn.</p>
                             </div>
                             <div className="why__content-icon why__top">
                             <img src={anh2} alt="" />
@@ -66,7 +66,7 @@ const Whys = () => {
                             <div className="content__name">
                                 <div className="content__name-title">
                                     <p>DỊCH VỤ QUẢN LÝ KHÁCH HÀNG</p>
-                                    <span>Với ứng dụng MedPro Clinic, bạn sẽ dễ dàng quản lý lịch khám hoặc tái khám của từng người bệnh đến được chia theo từng nguồn.</span>
+                                    <p>Với ứng dụng MedPro Clinic, bạn sẽ dễ dàng quản lý lịch khám hoặc tái khám của từng người bệnh đến được chia theo từng nguồn.</p>
                                 </div>
                             </div>
                         </div>
@@ -78,12 +78,12 @@ const Whys = () => {
                         <div className="why__content-title">
                             <div className="content-title_name">
                                 <p>DỊCH VỤ QUẢN LÝ KHÁCH HÀNG</p>
-                                <span>Với ứng dụng MedPro Clinic, bạn sẽ dễ dàng quản lý lịch khám hoặc tái khám của từng người bệnh đến được chia theo từng nguồn.</span>
+                                <p>Với ứng dụng MedPro Clinic, bạn sẽ dễ dàng quản lý lịch khám hoặc tái khám của từng người bệnh đến được chia theo từng nguồn.</p>
                             </div>
                             {/* <div className="content__name">
                                 <div className="content__name-title">
                                     <p>DỊCH VỤ QUẢN LÝ KHÁCH HÀNG</p>
-                                    <span>Với ứng dụng MedPro Clinic, bạn sẽ dễ dàng quản lý lịch khám hoặc tái khám của từng người bệnh đến được chia theo từng nguồn.</span>
+                                    <p>Với ứng dụng MedPro Clinic, bạn sẽ dễ dàng quản lý lịch khám hoặc tái khám của từng người bệnh đến được chia theo từng nguồn.</p>
                                 </div>
                             </div> */}
                         </div>

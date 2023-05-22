@@ -17,7 +17,7 @@ const HuongDan = () => {
                                 </div>
                                 <div className="right1">
                                     <p className="one">CÀI ĐẶT ỨNG DỤNG HOẶC TRUY CẬP WEBSITE</p>
-                                    <p>Người dùng truy cập website: medpro.vn   , hoặc tải ứng dụng di động <span className="methor">Methor</span> để trải nghiệm sản phẩm tốt nhất và sử dụng các tính năng dịch vụ mới nhất.</p>
+                                    <p>Người dùng truy cập website: medpro.vn   , hoặc tải ứng dụng di động Medpro để trải nghiệm sản phẩm tốt nhất và sử dụng các tính năng dịch vụ mới nhất.</p>
                                     <p className="setting">Vui lòng cài đặt ứng dụng theo hướng dẫn như sau.</p>
                                     <ul>
                                         <ol>Cách 1: Tải ứng dụng: https://medpro.vn/getapp</ol>
@@ -35,14 +35,14 @@ const HuongDan = () => {
                                 </div>
                                 <div className="right1">
                                 <p className="one">ĐĂNG KÝ TÀI KHOẢN</p>
-                                <span className="login_dangkysdt">Cách 1:Nhập số điện thoại</span>
+                                <p className="login_dangkysdt">Cách 1:Nhập số điện thoại</p>
                                 <ul className="Nhapthongtin">
                                     <li className="login_tt">Nhập số điện thoại</li>
                                     <li className="login_tt">Xác minh OTP để đăng ký tài khoản (Trong vòng 2 phút, sau 2 phút cần phải yêu cầu cấp mã mới).</li>
                                     <li className="login_tt">Bổ sung thông tin tài khoản: Họ và tên; Mật khẩu; Xác nhận lại mật khẩu; Ngày sinh; Giới tính; Email.</li>
                                     <li className="login_tt">Chọn đăng ký để hoàn tất tạo tài khoản.</li>
                                 </ul>
-                                <span className="login_dangkysdt">Cách 2: Đăng ký bằng Social</span>
+                                <p className="login_dangkysdt">Cách 2: Đăng ký bằng Social</p>
                                 <ul className="Nhapthongtin">
                                     <li className="login_tt">Chọn social Zalo, Facebook, Google, Apple.</li>
                                     <li className="login_tt">Nhập số điện thoại để xác minh OTP.</li>

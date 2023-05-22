@@ -3,9 +3,7 @@
     padding: 0;
     border: none;
     scroll-behavior: smooth;
-    
 }
-
 @font-face {
     font-family: Averta;
     src: url(../font/Averta-Bold.30074e57.woff);

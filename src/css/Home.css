@@ -181,6 +181,7 @@
     display: flex;
     gap: 5px;
     justify-content: center;
+    align-items: center;
     margin: 0 auto;
 }
 .download__app-content p{
@@ -334,6 +335,9 @@
 
         margin-top: 30px;
     }
+    .download__app-content{
+        font-size: 18px;
+    }
     .home__procedure-img{
         flex-direction: column;
         gap: 30px;
@@ -396,6 +400,9 @@
     .support__lienhe{
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    .choose{
+        padding: 0;
     }
     .support_lienhe{
         width: 150px;

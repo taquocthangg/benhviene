@@ -27,8 +27,10 @@ p{
 }
 .thongke{
     width: 100%;
-    height: 430px;
-    background: url('https://medpro.vn/static/media/BG_CLINIC.2ca22859.svg');
+    /* height: 430px; */
+    background-position:50% !important;
+    background-size: cover !important;
+    background: url('../img/phongkham/thongke/bg_clinic.svg');
 }
 .contents{
     text-align: center;
@@ -55,7 +57,7 @@ p{
     gap: 30px;
 }
 
-.content{
+.content,.noidung__uudiem{
     
     font-size: 28px;
     font-weight: 600;
@@ -183,7 +185,7 @@ p{
 display: flex;
 justify-content: flex-end;
 }
-.why__content-title p{
+.why__content-title p:first-child{
     font-family: Averta;
     font-size: 22px;
     color: #1e56c5;

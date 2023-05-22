@@ -217,6 +217,9 @@ color:#12263f;
     .nav-logo{
         padding: 0;
     }
+    .nav__bot{
+        height: 100vh;
+    }
     .nav__bot ul {
        flex-direction: column;
        gap: 0;
